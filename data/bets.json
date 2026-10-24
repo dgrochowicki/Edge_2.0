@@ -10884,22 +10884,69 @@
           "odds": 1.6,
           "confidence": null,
           "closing_odds": null,
+          "result": "won",
+          "notes": "Placed live: map 1, 0:0. Nemiga won 2:0.",
+          "final_score": "0:2"
+        }
+      ]
+    },
+    {
+      "id": "EDGE-313",
+      "date": "2026-10-24",
+      "type": "acca",
+      "source": "user_bet",
+      "stake_pln": 4.0,
+      "combined_odds": 2.0,
+      "potential_return_pln": 7.04,
+      "gross_return_pln": 7.03,
+      "status": "won",
+      "net_result_pln": 3.03,
+      "selections": [
+        {
+          "match": "Legacy vs Nemiga",
+          "market": "handicap_maps",
+          "pick": "Nemiga +0.5",
+          "odds": 1.4,
+          "confidence": null,
+          "closing_odds": null,
+          "result": "won",
+          "notes": "PGL Masters Bucharest. Nemiga won 2:0.",
+          "final_score": "0:2"
+        },
+        {
+          "match": "Vitality vs 9z",
+          "market": "correct_score",
+          "pick": "2:0",
+          "odds": 1.5,
+          "confidence": null,
+          "closing_odds": null,
+          "result": "won",
+          "notes": "PGL Masters Bucharest. Vitality won 2:0.",
+          "final_score": "2:0"
+        },
+        {
+          "match": "FURIA vs DENDELE",
+          "market": "moneyline",
+          "pick": "FURIA",
+          "odds": 1.11,
+          "confidence": null,
+          "closing_odds": null,
           "result": "pending",
-          "notes": "Placed live: map 1, 0:0. Not settled at coupon settlement (coupon already lost on leg 1)."
+          "notes": "PGL Masters Bucharest. Live (map 1, 0:0) at cash-out; not settled. Coupon cashed out for 7.03 PLN. Combined odds 2.00 as shown by STS (product of legs 2.33); potential_return = stake x 2.00 x 0.88."
         }
       ]
     }
   ],
   "observed_passes": [],
   "summary": {
-    "coupons": 312,
-    "won": 106,
+    "coupons": 313,
+    "won": 107,
     "lost": 206,
     "voided": 0,
     "pending": 0,
-    "total_staked_pln": 748.25,
-    "gross_return_pln": 568.71,
-    "net_result_pln": -179.54,
-    "roi": -0.2399
+    "total_staked_pln": 752.25,
+    "gross_return_pln": 575.74,
+    "net_result_pln": -176.51,
+    "roi": -0.2346
   }
 }
