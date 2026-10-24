@@ -4,7 +4,8 @@ Księga kuponów CS2 (STS, 1u = 2 PLN), dashboard kuponów i nowy skaner w budow
 
 - **Archiwum v1–v3** (lipiec–październik 2026: predykcje, raporty dzienne, metody): [dgrochowicki/Edge](https://github.com/dgrochowicki/Edge). Nic tam już nie logujemy.
 - **Aktualne zlecenie:** [docs/decisions/2026-10-24-etap0-zlecenie.md](docs/decisions/2026-10-24-etap0-zlecenie.md) — etap 0, backtest-bramka G0.
-- **Dashboard:** GitHub Pages tego repo (`index.html`, `dashboard/logs.html`).
+- **Dashboard:** [dgrochowicki.github.io/Edge_2.0](https://dgrochowicki.github.io/Edge_2.0/) (logi: [dashboard/logs.html](https://dgrochowicki.github.io/Edge_2.0/dashboard/logs.html)).
+- **Zasady dla agentów:** [AGENTS.md](AGENTS.md).
 
 ## Struktura
 
