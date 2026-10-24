@@ -19,7 +19,7 @@ Hard rules (every coupon):
     - source in SOURCE_VALUES
     - status in {won, lost, void, pending}
     - stake_pln > 0; combined_odds > 1; gross_return_pln >= 0
-    - net_result_pln == gross_return_pln - stake_pln   (+/- 0.005)
+    - settled (not pending): net_result_pln == gross_return_pln - stake_pln   (+/- 0.005)
     - potential_return_pln <= stake_pln * combined_odds (+/- 0.01)
     - status pending -> gross_return_pln == 0 and net_result_pln == 0
     - every selection has match, market, pick, odds > 1,
@@ -121,7 +121,7 @@ def validate(coupons, summary):
             errors.append((cid, f"combined_odds <= 1: {odds}"))
         if gross < 0:
             errors.append((cid, f"gross_return_pln < 0: {gross}"))
-        if abs(gross - stake - net) > 0.005:
+        if status != "pending" and abs(gross - stake - net) > 0.005:
             errors.append((cid, f"net_result_pln {net} != gross - stake = {gross - stake:.2f}"))
         if pot > stake * odds + 0.01:
             errors.append((cid, f"potential_return_pln {pot} > stake * combined_odds = {stake * odds:.2f}"))
