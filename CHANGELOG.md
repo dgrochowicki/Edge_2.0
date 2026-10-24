@@ -29,6 +29,12 @@ Reguły metody są w `docs/decisions/` (zmiana reguł = nowy plik decyzji); tu t
 - **Tydzień** = tydzień ISO wg `start_time`; „tygodnie z ≥ 20 meczami” liczone na wszystkich meczach z listy `fixtures` (wariant trudniejszy do spełnienia). (`8bbfe46`)
 - **Kursy pobierane** tylko dla meczów z `pinnacleId` w `fixtures`; miękkie booki tylko gdy Pinnacle ma ≥ 1 zapis przed startem. (`984e267`)
 - **Limit 200** liczy OddsPapi (`request_count`), tylko zapytania płatne; `historical-odds` i `account` bezpłatne — potwierdzone empirycznie (47 wywołań `historical-odds`, licznik bez zmian). (`d7264ec`)
+- **Werdykt G0 a przejście do etapu 1** (Dom, 2026-10-24, zapisane **przed** uruchomieniem backtestu H1; reguły G0 bez zmian):
+  - Werdykt G0 liczony dokładnie jak w zleceniu, na wszystkich 7 bookach z `config.SOFT_BOOKS`.
+  - Decyzja o przejściu do etapu 1 wymaga **dodatkowo**, żeby podzbiór sygnałów H1 z booków licencjonowanych w PL — `efortuna.pl` i `superbet.pl` — miał **średni CLV > 0** (wartość punktowa).
+  - Podzbiór = sygnały z `h1_signals.csv` z `book ∈ {efortuna.pl, superbet.pl}`; bez ponownego wyboru sygnałów (pierwszy snapshot w meczu wybrany na 7 bookach, zgodnie z regułą H1).
+  - Jeśli podzbiór ma **< 50 sygnałów**: raportowany opisowo (n, średni CLV, 97,5% CI), oznaczony **„za mało, by decydować”** — warunek przejścia do etapu 1 nie jest wtedy spełniony.
+  - Liczone poza `backtest_h1.py` (plik z commitu kodu `8bbfe46` bez zmian), w kroku raportu. (`COMMIT_PLSUB`)
 
 ## 2026-10-24
 
