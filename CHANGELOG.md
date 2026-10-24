@@ -36,6 +36,12 @@ Reguły metody są w `docs/decisions/` (zmiana reguł = nowy plik decyzji); tu t
   - Podzbiór = sygnały z `h1_signals.csv` z `book ∈ {efortuna.pl, superbet.pl}`; bez ponownego wyboru sygnałów (pierwszy snapshot w meczu wybrany na 7 bookach, zgodnie z regułą H1).
   - Jeśli podzbiór ma **< 50 sygnałów**: raportowany opisowo (n, średni CLV, 97,5% CI), oznaczony **„za mało, by decydować”** — warunek przejścia do etapu 1 nie jest wtedy spełniony.
   - Liczone poza `backtest_h1.py` (plik z commitu kodu `8bbfe46` bez zmian), w kroku raportu. (`65b6165`)
+- **H3** (zapisane przed uruchomieniem, commit kodu H3):
+  - **Werdykt T1, gdy oba warunki naraz** (dolna CI β > 0 i górna < 0,1, czyli małe, ale istotne β): **BRAK SYGNAŁU** — wariant konserwatywny; zlecenie H3 nie rozstrzyga kolejności.
+  - **Kolejność Elo w obrębie dnia:** rekordy VRS z tej samej daty przetwarzane w kolejności nazw drużyn (deterministycznie); dla meczów testowych bez znaczenia, bo rating kończy się na d₀ − 2.
+  - **Wykluczenie dopasowanego rekordu VRS:** rekord dopasowany do meczu testowego ma datę d₀ ± 1 > d₀ − 2, więc nie wchodzi do ratingu z konstrukcji; sprawdzane asercją w `backtest_h3.py`.
+  - **Mapowanie drużyn:** pierwsza znormalizowana forma (nazwa, potem skrót z `fixtures`), która występuje w VRS; ta sama drużyna po obu stronach → mecz odrzucony.
+  - **„Strona modelu = faworyt rynku”**: model wycenia wyżej stronę, która na otwarciu Pinnacle ma p > 0,5.
 
 ## 2026-10-24
 
