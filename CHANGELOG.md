@@ -34,7 +34,7 @@ Reguły metody są w `docs/decisions/` (zmiana reguł = nowy plik decyzji); tu t
   - Decyzja o przejściu do etapu 1 wymaga **dodatkowo**, żeby podzbiór sygnałów H1 z booków licencjonowanych w PL — `efortuna.pl` i `superbet.pl` — miał **średni CLV > 0** (wartość punktowa).
   - Podzbiór = sygnały z `h1_signals.csv` z `book ∈ {efortuna.pl, superbet.pl}`; bez ponownego wyboru sygnałów (pierwszy snapshot w meczu wybrany na 7 bookach, zgodnie z regułą H1).
   - Jeśli podzbiór ma **< 50 sygnałów**: raportowany opisowo (n, średni CLV, 97,5% CI), oznaczony **„za mało, by decydować”** — warunek przejścia do etapu 1 nie jest wtedy spełniony.
-  - Liczone poza `backtest_h1.py` (plik z commitu kodu `8bbfe46` bez zmian), w kroku raportu. (`COMMIT_PLSUB`)
+  - Liczone poza `backtest_h1.py` (plik z commitu kodu `8bbfe46` bez zmian), w kroku raportu. (`65b6165`)
 
 ## 2026-10-24
 
