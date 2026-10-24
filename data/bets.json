@@ -10896,8 +10896,8 @@
       "type": "acca",
       "source": "user_bet",
       "stake_pln": 4.0,
-      "combined_odds": 2.0,
-      "potential_return_pln": 7.04,
+      "combined_odds": 2.33,
+      "potential_return_pln": 8.21,
       "gross_return_pln": 7.03,
       "status": "won",
       "net_result_pln": 3.03,
@@ -10932,7 +10932,7 @@
           "confidence": null,
           "closing_odds": null,
           "result": "pending",
-          "notes": "PGL Masters Bucharest. Live (map 1, 0:0) at cash-out; not settled. Coupon cashed out for 7.03 PLN. Combined odds 2.00 as shown by STS (product of legs 2.33); potential_return = stake x 2.00 x 0.88."
+          "notes": "PGL Masters Bucharest. Live (map 1, 0:0) at cash-out; not settled. Coupon cashed out for 7.03 PLN. STS showed 'kurs 2.00' = cash-out / taxed stake (7.03 / 3.52); real combined odds 2.33."
         }
       ]
     }
