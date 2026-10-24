@@ -1,0 +1,66 @@
+{
+  "n": 163,
+  "mean_clv": 0.10118439423881226,
+  "ci": [
+    0.06719792580089919,
+    0.13772185331177172
+  ],
+  "weekly": {
+    "qualifying_weeks": 40,
+    "signals_in_qualifying_weeks": 161,
+    "mean_per_week": 4.025
+  },
+  "verdict": "NIEROZSTRZYGALNA",
+  "descriptive": {
+    "pl_flat": {
+      "n": 97,
+      "sum_u": -12.180000000000003,
+      "roi": -0.1255670103092784
+    },
+    "per_book": {
+      "1xbet": {
+        "count": 18,
+        "mean": 0.0644
+      },
+      "bet365": {
+        "count": 31,
+        "mean": 0.1408
+      },
+      "betway": {
+        "count": 25,
+        "mean": 0.0675
+      },
+      "efortuna.pl": {
+        "count": 23,
+        "mean": 0.1023
+      },
+      "stake": {
+        "count": 16,
+        "mean": 0.0652
+      },
+      "superbet.pl": {
+        "count": 19,
+        "mean": 0.1264
+      },
+      "unibet": {
+        "count": 31,
+        "mean": 0.1124
+      }
+    },
+    "per_quarter": {
+      "2026Q2": {
+        "count": 18,
+        "mean": 0.0562
+      },
+      "2026Q3": {
+        "count": 99,
+        "mean": 0.0976
+      },
+      "2026Q4": {
+        "count": 46,
+        "mean": 0.1264
+      }
+    },
+    "share_closed_toward_b": 0.588957055214724
+  }
+}
