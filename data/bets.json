@@ -10817,18 +10817,53 @@
           "notes": "Out of Edge scope -- PGL Masters Bucharest. Same match as EDGE-309 (opposite pick). Cashed out for 7.17 PLN before full resolution."
         }
       ]
+    },
+    {
+      "id": "EDGE-311",
+      "date": "2026-10-24",
+      "type": "acca",
+      "source": "user_bet",
+      "stake_pln": 2.17,
+      "combined_odds": 3.11,
+      "potential_return_pln": 5.94,
+      "gross_return_pln": 0.0,
+      "status": "lost",
+      "net_result_pln": -2.17,
+      "selections": [
+        {
+          "match": "MOUZ vs Liquid",
+          "market": "moneyline",
+          "pick": "MOUZ",
+          "odds": 1.11,
+          "confidence": null,
+          "closing_odds": null,
+          "result": "lost",
+          "notes": "PGL Masters Bucharest. Liquid won 2:1.",
+          "final_score": "1:2"
+        },
+        {
+          "match": "Spirit vs BetBoom",
+          "market": "correct_score",
+          "pick": "2:0",
+          "odds": 2.8,
+          "confidence": null,
+          "closing_odds": null,
+          "result": "lost",
+          "notes": "Exact score 2:0 for Spirit did not hit -- series 1:1 going to map 3 at logging."
+        }
+      ]
     }
   ],
   "observed_passes": [],
   "summary": {
-    "coupons": 310,
+    "coupons": 311,
     "won": 106,
-    "lost": 204,
+    "lost": 205,
     "voided": 0,
     "pending": 0,
-    "total_staked_pln": 743.08,
+    "total_staked_pln": 745.25,
     "gross_return_pln": 568.71,
-    "net_result_pln": -174.37,
-    "roi": -0.2347
+    "net_result_pln": -176.54,
+    "roi": -0.2369
   }
 }
