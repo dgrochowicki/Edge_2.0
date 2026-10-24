@@ -1,7 +1,7 @@
 # Zlecenie dla repo agenta: Edge 2.0 — Etap 0 (backtest-bramka)
 
 **Data:** 2026-10-24 · **Zleceniodawca:** Dom (operator) · **Autor zlecenia:** claude
-**Status:** do wykonania po akceptacji operatora (commit tego pliku = akceptacja i zamrożenie reguł) · rewizja 2026-10-24 12:30: doprecyzowania po uwagach agenta (zakres commitu zamrażającego, H1 kolejność snapshotów, CI 97,5%, moc H2) · rewizja 2026-10-24 12:45: dwa commity zamrażające (reguły w A, kod po B0), B0 tylko struktura danych, 310 kuponów
+**Status:** do wykonania po akceptacji operatora (commit tego pliku = akceptacja i zamrożenie reguł) · rewizja 2026-10-24 12:30: doprecyzowania po uwagach agenta (zakres commitu zamrażającego, H1 kolejność snapshotów, CI 97,5%, moc H2) · rewizja 2026-10-24 12:45: dwa commity zamrażające (reguły w A, kod po B0), B0 tylko struktura danych, 310 kuponów · rewizja 2026-10-24 po B0: plan free OddsPapi, przydział płatnych wyników, zestaw miękkich booków (sekcja 10)
 **Kontekst:** propozycja planu „Edge 2.0" (dokument Doma), decyzja `Edge/docs/decisions/2026-10-24-simplify-to-opinions.md`
 **Repo docelowe:** nowe `dgrochowicki/Edge_2.0` = księga kuponów + dashboard kuponów + nowy skaner (`scanner/`). Stare `dgrochowicki/Edge` = zamrożone archiwum v1–v3.
 
@@ -184,3 +184,18 @@ Python 3.11+, zależności w `scanner/requirements.txt` (pandas, numpy, requests
 - Nie budujesz widoku sygnałów w dashboardzie (najwyżej pusta zakładka-zaślepka, A4).
 - Nie zmieniasz niczego w repo `Edge` poza notą w README.
 - Nie piszesz raportów dziennych i nie prosisz Doma o kursy STS.
+
+## 10. Rewizja po B0 (2026-10-24, decyzja Doma: plan free)
+
+Podstawa: `scanner/reports/2026-10-24-b0-rozpoznanie.md`. Progi, metryki i warunki przejścia z sekcji 4 bez zmian; poniżej tylko to, czego zlecenie nie rozstrzygało lub czego źródło nie umożliwia.
+
+1. **Źródło i budżet.** OddsPapi, plan free. Limit liczy OddsPapi (`request_count` z `/v4/account`) i obejmuje tylko zapytania płatne. Twardy limit etapu 0: **200 płatnych** (z dotychczasowym zużyciem). `historical-odds` i `account` są bezpłatne, ale też logowane w `api_usage.json`. Klient sprawdza `request_count` przed każdym płatnym zapytaniem.
+2. **Zakres.** Wszystkie mecze CS2 dostępne w źródle; historia kursów istnieje de facto tylko w 2026 (sonda z lutego bez danych). Lista meczów: `fixtures?sportId=17&statusId=2`, okna < 10 dni, 2026-01-01 – 2026-10-24.
+3. **`start_time` = `startTime` z `fixtures`.** Snapshoty z `createdAt ≥ start_time` (notowania w trakcie meczu) są ignorowane we wszystkich obliczeniach.
+4. **Otwarcie** = pierwszy snapshot OddsPapi przed `start_time` (w sondach 3–14 h przed meczem, nie rzeczywiste otwarcie linii) — przyjęte świadomie; H2 testuje p_fav z tego snapshotu.
+5. **Rynek:** moneyline = `marketId 171`; mapowanie wyników `171`/`172` na uczestnika 1/2 potwierdzone jednym zapytaniem `markets` przed pobieraniem.
+6. **Kandydaci na B w H1 (odstępstwo od „pozostałe booki ze źródła”, wariant konserwatywny wg 1.6):** pobieranie wszystkich 348 booków przy 5 s na zapytanie i 3 bookach na zapytanie jest niewykonalne czasowo. Zestaw zamrożony: `bet365`, `1xbet`, `efortuna.pl`, `superbet.pl`, `betway`, `unibet`, `stake`. Miękkie booki pobierane tylko dla meczów, w których Pinnacle ma ≥ 1 snapshot przed `start_time`.
+7. **H1 nie wymaga wyników** (metryka rozstrzygająca: CLV). P/L płaskiej stawki dla H1 raportowany opisowo tylko na sygnałach z pobranym wynikiem, z podaną liczbą.
+8. **Przydział płatnych wyników (`scores`), ustalony przed pobraniem danych:** najpierw wszystkie sygnały H2 w kolejności `start_time`, potem `fixtureId`; jeśli budżet zostanie, sygnały H1 w tej samej kolejności. Mecze bez wyniku nie wchodzą do metryk opartych na wyniku. H2 liczona na sygnałach z wynikiem; n < 1 000 → **NIEROZSTRZYGALNA** (sekcja 5), bez ekstrapolacji.
+9. **Niedostępne w źródle:** tier (H1: próg zastępczy „tygodnie z ≥ 20 meczami”), format BO (podział H2 BO1 vs BO3+ pominięty), STS (sekcja Pokrycie bez wiersza STS; zadanie G bez zmian — STS z predykcji `Edge`).
+10. **Środowisko:** Python 3.11 przez `uv` w `scanner/.venv` (poza git); testy na `unittest`.

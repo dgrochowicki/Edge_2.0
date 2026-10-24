@@ -108,5 +108,14 @@
     "status": 200,
     "billable": false,
     "cache_key": "f55fb9e1f4dbd42955ac"
+  },
+  {
+    "time": "2026-10-24T10:56:24Z",
+    "endpoint": "account",
+    "params": {},
+    "status": 200,
+    "billable": false,
+    "cache_key": null,
+    "note": "weryfikacja nowego klucza, bez cache, odpowiedź nie zapisana"
   }
 ]
