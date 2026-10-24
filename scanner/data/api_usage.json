@@ -1,0 +1,112 @@
+[
+  {
+    "time": "2026-10-24T10:49:08Z",
+    "endpoint": "account",
+    "params": {},
+    "status": 200,
+    "billable": false,
+    "cache_key": "80151d7f436b75b03ea3"
+  },
+  {
+    "time": "2026-10-24T10:49:31Z",
+    "endpoint": "sports",
+    "params": {},
+    "status": 200,
+    "billable": true,
+    "cache_key": "f219042955a9e84a2139"
+  },
+  {
+    "time": "2026-10-24T10:49:39Z",
+    "endpoint": "fixtures",
+    "params": {
+      "sportId": 17,
+      "statusId": 2,
+      "from": "2026-02-02T00:00:00Z",
+      "to": "2026-02-11T00:00:00Z"
+    },
+    "status": 200,
+    "billable": true,
+    "cache_key": "c1e54b21597ad7f6e7fb"
+  },
+  {
+    "time": "2026-10-24T10:49:59Z",
+    "endpoint": "historical-odds",
+    "params": {
+      "fixtureId": "id1705023868457752",
+      "bookmakers": "pinnacle,bet365,1xbet"
+    },
+    "status": 404,
+    "billable": false,
+    "cache_key": "20abeefe20573af02760"
+  },
+  {
+    "time": "2026-10-24T10:50:07Z",
+    "endpoint": "historical-odds",
+    "params": {
+      "fixtureId": "id1705023868457752",
+      "bookmakers": "pinnacle"
+    },
+    "status": 404,
+    "billable": false,
+    "cache_key": "a0c2492a7488f66d2b1e"
+  },
+  {
+    "time": "2026-10-24T10:50:17Z",
+    "endpoint": "fixtures",
+    "params": {
+      "sportId": 17,
+      "statusId": 2,
+      "from": "2026-10-12T00:00:00Z",
+      "to": "2026-10-21T00:00:00Z"
+    },
+    "status": 200,
+    "billable": true,
+    "cache_key": "be5435ec7d995a22954b"
+  },
+  {
+    "time": "2026-10-24T10:50:18Z",
+    "endpoint": "historical-odds",
+    "params": {
+      "fixtureId": "id1704578375497038",
+      "bookmakers": "pinnacle,bet365,1xbet"
+    },
+    "status": 200,
+    "billable": false,
+    "cache_key": "808a6d2fe33e5be1fadb"
+  },
+  {
+    "time": "2026-10-24T10:50:31Z",
+    "endpoint": "historical-odds",
+    "params": {
+      "fixtureId": "id1704610575704784",
+      "bookmakers": "pinnacle,superbet.pl,efortuna.pl"
+    },
+    "status": 200,
+    "billable": false,
+    "cache_key": "740c08027481a9a92cb5"
+  },
+  {
+    "time": "2026-10-24T10:50:43Z",
+    "endpoint": "fixtures",
+    "params": {
+      "sportId": 17,
+      "statusId": 2,
+      "from": "2026-07-01T00:00:00Z",
+      "to": "2026-07-10T00:00:00Z"
+    },
+    "status": 200,
+    "billable": true,
+    "cache_key": "48aaf4b389972cce9856"
+  },
+  {
+    "time": "2026-10-24T10:50:43Z",
+    "endpoint": "historical-odds",
+    "params": {
+      "fixtureId": "id1705104272533136",
+      "bookmakers": "pinnacle,bet365,efortuna.pl"
+    },
+    "status": 200,
+    "billable": false,
+    "cache_key": "f55fb9e1f4dbd42955ac"
+  }
+]
