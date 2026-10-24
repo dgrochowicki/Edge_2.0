@@ -45,6 +45,7 @@ Reguły metody są w `docs/decisions/` (zmiana reguł = nowy plik decyzji); tu t
 
 ## 2026-10-24
 
+- **Raport H3** (`scanner/reports/2026-10-24-h3.md`): **„Za mało danych” — T1 NIEROZSTRZYGALNE** (n = 461, β = +0,050, 95% CI [−0,003, +0,103]). T2 opisowo: n = 101, ROI −36,4%, CLV −4,7%; T3: Elo gorsze od Pinnacle (log-loss 0,643 vs 0,598/0,587). Reguły `2131816`, kod `f081a89` bez zmian przy uruchomieniu; 0 zapytań API. Werdykt G0 bez zmian. (`COMMIT_H3`)
 - **Raport G0** (`scanner/reports/2026-10-24-g0.md`): **G0 = NIE PRZECHODZI (brak danych)**. H1: n = 163 < 200 → NIEROZSTRZYGALNA (średni CLV +10,1%, 97,5% CI [+6,7%, +13,8%] — opisowo). H2: 668 meczów z Pinnacle open+close < 1 000 → NIEROZSTRZYGALNA. Warunek etapu 1 (podzbiór PL): n = 42 < 50 → „za mało, by decydować”. Pliki `config/stats/snapshots/backtest_h1/backtest_h2` identyczne z `8bbfe46` przy uruchomieniu; testy zielone. (`9f9aece`)
 - **Pokrycie przed backtestem** (`coverage_odds.py`, bez wyników/CLV): 718 meczów z kursami, 668 z Pinnacle przed startem, 654 z ≥ 1 miękkim bookiem w oknie H1, **625 ze sparowanym snapshotem** (≥ ~600 → backtest H1 uruchomiony zgodnie z dyspozycją Doma). (`9f9aece`)
 - **Kontrola danych H1 (bez wyników):** orientacja stron u wszystkich 7 booków poprawna (mediana |różnicy de-vig| vs Pinnacle 0,3–2,3 pp); średni CLV ≈ średnia value w chwili sygnału (+10,1% vs +10,9%). (`9f9aece`)
