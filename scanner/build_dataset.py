@@ -2,8 +2,9 @@
 (zlecenie B, section 10). Reads data/raw/ only -- never calls the API.
 
 snapshots.csv: moneyline (market 171) only, only createdAt < start_time (10.3).
-matches.csv:   every listed fixture; winner from settlements when fetched
-               ('a'/'b'; void/cancelled/unknown -> empty); open/close per book and side.
+matches.csv:   every listed fixture; winner ('a'/'b', else empty) from paid OddsPapi
+               settlements when fetched, otherwise from Valve VRS data
+               (data/results_vrs.csv, results_vrs.py; CHANGELOG O9); open/close per book and side.
 """
 import json
 from collections import Counter
@@ -73,10 +74,23 @@ def winners():
     return out, kinds
 
 
+def vrs_winners():
+    path = oddspapi.DATA_DIR / "results_vrs.csv"
+    if not path.exists():
+        return {}
+    r = pd.read_csv(path, dtype=str).fillna("")
+    return dict(zip(r["match_id"], r["winner"]))
+
+
 def main():
     fixtures = fetch_history.all_fixtures()
     snaps = snapshot_rows(fixtures)
     win, unsettled = winners()
+    vrs = vrs_winners()
+    source = {mid: "settlements" for mid in win}
+    for mid, w in vrs.items():
+        if mid not in win and w in ("a", "b"):
+            win[mid], source[mid] = w, "vrs"
 
     snaps_t = snaps.assign(t=pd.to_datetime(snaps["t"], utc=True))
     books = snapshots.books_by_match(snaps_t) if len(snaps_t) else {}
@@ -88,7 +102,7 @@ def main():
                "category": f.get("categoryName"), "tier": "", "format": "",
                "team_a": f.get("participant1Name"), "team_b": f.get("participant2Name"),
                "has_pinnacle_id": bool((f.get("externalProviders") or {}).get("pinnacleId")),
-               "settled": mid in win, "winner": win.get(mid) or ""}
+               "settled": mid in win, "winner": win.get(mid) or "", "winner_source": source.get(mid, "")}
         for name, b in books.get(mid, {}).items():
             opened, close = b.open(), b.close(start)
             row[f"{name}_n_snap"] = len(b.times)

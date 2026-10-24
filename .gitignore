@@ -10,3 +10,6 @@
 __pycache__/
 *.pyc
 .venv/
+
+# external data (Valve VRS clone, zlecenie: wyniki z darmowego źródła)
+scanner/data/vrs_repo/
