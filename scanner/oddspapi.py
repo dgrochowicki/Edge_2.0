@@ -30,12 +30,16 @@ USAGE_PATH = DATA_DIR / "api_usage.json"
 
 BILLABLE_LIMIT = 200  # zlecenie B0: hard limit for etap 0 (250/month free, 50 reserve)
 UNBILLED = {"historical-odds", "account"}
-COOLDOWN_S = {"historical-odds": 5.0, "fixtures": 2.0}
+COOLDOWN_S = {"historical-odds": 5.0, "fixtures": 2.0, "settlements": 2.0, "account": 5.0}
 DEFAULT_COOLDOWN_S = 1.0
 
 
 class LimitExceeded(RuntimeError):
     pass
+
+
+class NotFound(RuntimeError):
+    """HTTP 404 (e.g. no historical odds for a fixture); cached like a 200."""
 
 
 def load_key():
@@ -82,13 +86,18 @@ class Client:
         ck = cache_key(endpoint, params)
         path = RAW_DIR / endpoint / f"{ck}.json"
         if path.exists():
-            return json.loads(path.read_text(encoding="utf-8"))["body"], True
+            cached = json.loads(path.read_text(encoding="utf-8"))
+            if cached.get("status") == 404:
+                raise NotFound(f"{endpoint} {params} (cached 404)")
+            return cached["body"], True
 
         billable = endpoint not in UNBILLED
-        if billable and billable_count() >= BILLABLE_LIMIT:
-            raise LimitExceeded(f"billable limit {BILLABLE_LIMIT} reached")
         if self.max_calls is not None and self.session_calls >= self.max_calls:
             raise LimitExceeded(f"session cap {self.max_calls} reached")
+        if billable:
+            used = max(billable_count(), self.remote_request_count())
+            if used >= BILLABLE_LIMIT:
+                raise LimitExceeded(f"billable limit {BILLABLE_LIMIT} reached (used {used})")
 
         wait = COOLDOWN_S.get(endpoint, DEFAULT_COOLDOWN_S) - (time.monotonic() - self._last_call.get(endpoint, -1e9))
         if wait > 0:
@@ -112,14 +121,41 @@ class Client:
             self.session_calls += 1
             self._log(endpoint, params, status, billable, ck)
 
-        if status == 200:
+        if status in (200, 404):
             body = _redact(body, self._key)
             path.parent.mkdir(parents=True, exist_ok=True)
-            path.write_text(json.dumps({"endpoint": endpoint, "params": params,
+            path.write_text(json.dumps({"endpoint": endpoint, "params": params, "status": status,
                                         "fetched_at": _now(), "body": body},
                                        ensure_ascii=False), encoding="utf-8")
+            if status == 404:
+                raise NotFound(f"{endpoint} {params}")
             return body, False
         raise RuntimeError(f"{endpoint} {params} -> HTTP {status}: {str(body)[:300]}")
+
+    def remote_request_count(self, retries=4):
+        """request_count from /v4/account (unbilled, never cached, every attempt logged).
+        The account endpoint has its own cooldown: wait, and back off on HTTP 429."""
+        url = f"{BASE_URL}/account?" + urllib.parse.urlencode({"apiKey": self._key})
+        for attempt in range(retries):
+            wait = COOLDOWN_S["account"] * (attempt + 1) - (time.monotonic() - self._last_call.get("account", -1e9))
+            if wait > 0:
+                time.sleep(wait)
+            status = None
+            try:
+                with urllib.request.urlopen(url, timeout=30) as resp:
+                    status = resp.status
+                    body = json.loads(resp.read().decode("utf-8"))
+            except urllib.error.HTTPError as e:
+                status = e.code
+                if e.code != 429:
+                    raise RuntimeError(f"account -> HTTP {e.code}") from None
+            finally:
+                self._last_call["account"] = time.monotonic()
+                self._log("account", {}, status, False, None)
+            if status == 200:
+                sub = next(s for s in body["subscriptions"] if s.get("is_active"))
+                return int(sub["request_count"])
+        raise RuntimeError("account: HTTP 429 after retries")
 
     def _log(self, endpoint, params, status, billable, ck):
         usage = read_usage()

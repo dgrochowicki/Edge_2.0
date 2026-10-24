@@ -117,5 +117,775 @@
     "billable": false,
     "cache_key": null,
     "note": "weryfikacja nowego klucza, bez cache, odpowiedź nie zapisana"
+  },
+  {
+    "time": "2026-10-24T11:10:16Z",
+    "endpoint": "account",
+    "params": {},
+    "status": 200,
+    "billable": false,
+    "cache_key": null
+  },
+  {
+    "time": "2026-10-24T11:10:17Z",
+    "endpoint": "fixtures",
+    "params": {
+      "sportId": 17,
+      "statusId": 2,
+      "from": "2026-01-01T00:00:00Z",
+      "to": "2026-01-10T00:00:00Z"
+    },
+    "status": 200,
+    "billable": true,
+    "cache_key": "e4fe740c775a30324ccc"
+  },
+  {
+    "time": "2026-10-24T11:10:37Z",
+    "endpoint": "account",
+    "params": {},
+    "status": 200,
+    "billable": false,
+    "cache_key": null
+  },
+  {
+    "time": "2026-10-24T11:10:37Z",
+    "endpoint": "fixtures",
+    "params": {
+      "sportId": 17,
+      "statusId": 2,
+      "from": "2026-01-10T00:00:00Z",
+      "to": "2026-01-19T00:00:00Z"
+    },
+    "status": 200,
+    "billable": true,
+    "cache_key": "4b8a5e0f02defa98c370"
+  },
+  {
+    "time": "2026-10-24T11:10:42Z",
+    "endpoint": "account",
+    "params": {},
+    "status": 200,
+    "billable": false,
+    "cache_key": null
+  },
+  {
+    "time": "2026-10-24T11:10:42Z",
+    "endpoint": "fixtures",
+    "params": {
+      "sportId": 17,
+      "statusId": 2,
+      "from": "2026-01-19T00:00:00Z",
+      "to": "2026-01-28T00:00:00Z"
+    },
+    "status": 200,
+    "billable": true,
+    "cache_key": "1bb399ddb5fb9fa2fc2e"
+  },
+  {
+    "time": "2026-10-24T11:10:47Z",
+    "endpoint": "account",
+    "params": {},
+    "status": 200,
+    "billable": false,
+    "cache_key": null
+  },
+  {
+    "time": "2026-10-24T11:10:48Z",
+    "endpoint": "fixtures",
+    "params": {
+      "sportId": 17,
+      "statusId": 2,
+      "from": "2026-01-28T00:00:00Z",
+      "to": "2026-02-02T00:00:00Z"
+    },
+    "status": 200,
+    "billable": true,
+    "cache_key": "e3a95a422dde4f9a8cc1"
+  },
+  {
+    "time": "2026-10-24T11:10:53Z",
+    "endpoint": "account",
+    "params": {},
+    "status": 200,
+    "billable": false,
+    "cache_key": null
+  },
+  {
+    "time": "2026-10-24T11:10:53Z",
+    "endpoint": "fixtures",
+    "params": {
+      "sportId": 17,
+      "statusId": 2,
+      "from": "2026-02-11T00:00:00Z",
+      "to": "2026-02-20T00:00:00Z"
+    },
+    "status": 200,
+    "billable": true,
+    "cache_key": "ed38d0946436eda0f8a5"
+  },
+  {
+    "time": "2026-10-24T11:10:58Z",
+    "endpoint": "account",
+    "params": {},
+    "status": 200,
+    "billable": false,
+    "cache_key": null
+  },
+  {
+    "time": "2026-10-24T11:10:58Z",
+    "endpoint": "fixtures",
+    "params": {
+      "sportId": 17,
+      "statusId": 2,
+      "from": "2026-02-20T00:00:00Z",
+      "to": "2026-03-01T00:00:00Z"
+    },
+    "status": 200,
+    "billable": true,
+    "cache_key": "220c38e1eb065716d1a3"
+  },
+  {
+    "time": "2026-10-24T11:11:03Z",
+    "endpoint": "account",
+    "params": {},
+    "status": 200,
+    "billable": false,
+    "cache_key": null
+  },
+  {
+    "time": "2026-10-24T11:11:03Z",
+    "endpoint": "fixtures",
+    "params": {
+      "sportId": 17,
+      "statusId": 2,
+      "from": "2026-03-01T00:00:00Z",
+      "to": "2026-03-10T00:00:00Z"
+    },
+    "status": 200,
+    "billable": true,
+    "cache_key": "ba6804f056a845725897"
+  },
+  {
+    "time": "2026-10-24T11:11:08Z",
+    "endpoint": "account",
+    "params": {},
+    "status": 200,
+    "billable": false,
+    "cache_key": null
+  },
+  {
+    "time": "2026-10-24T11:11:08Z",
+    "endpoint": "fixtures",
+    "params": {
+      "sportId": 17,
+      "statusId": 2,
+      "from": "2026-03-10T00:00:00Z",
+      "to": "2026-03-19T00:00:00Z"
+    },
+    "status": 200,
+    "billable": true,
+    "cache_key": "77e6dcecd9640a87eabb"
+  },
+  {
+    "time": "2026-10-24T11:11:14Z",
+    "endpoint": "account",
+    "params": {},
+    "status": 200,
+    "billable": false,
+    "cache_key": null
+  },
+  {
+    "time": "2026-10-24T11:11:14Z",
+    "endpoint": "fixtures",
+    "params": {
+      "sportId": 17,
+      "statusId": 2,
+      "from": "2026-03-19T00:00:00Z",
+      "to": "2026-03-28T00:00:00Z"
+    },
+    "status": 200,
+    "billable": true,
+    "cache_key": "de54f9d95d36df4477f1"
+  },
+  {
+    "time": "2026-10-24T11:11:19Z",
+    "endpoint": "account",
+    "params": {},
+    "status": 200,
+    "billable": false,
+    "cache_key": null
+  },
+  {
+    "time": "2026-10-24T11:11:19Z",
+    "endpoint": "fixtures",
+    "params": {
+      "sportId": 17,
+      "statusId": 2,
+      "from": "2026-03-28T00:00:00Z",
+      "to": "2026-04-06T00:00:00Z"
+    },
+    "status": 200,
+    "billable": true,
+    "cache_key": "21c9d1b261c14c198f43"
+  },
+  {
+    "time": "2026-10-24T11:11:24Z",
+    "endpoint": "account",
+    "params": {},
+    "status": 200,
+    "billable": false,
+    "cache_key": null
+  },
+  {
+    "time": "2026-10-24T11:11:24Z",
+    "endpoint": "fixtures",
+    "params": {
+      "sportId": 17,
+      "statusId": 2,
+      "from": "2026-04-06T00:00:00Z",
+      "to": "2026-04-15T00:00:00Z"
+    },
+    "status": 200,
+    "billable": true,
+    "cache_key": "3929f206efab7b5b635c"
+  },
+  {
+    "time": "2026-10-24T11:11:29Z",
+    "endpoint": "account",
+    "params": {},
+    "status": 200,
+    "billable": false,
+    "cache_key": null
+  },
+  {
+    "time": "2026-10-24T11:11:29Z",
+    "endpoint": "fixtures",
+    "params": {
+      "sportId": 17,
+      "statusId": 2,
+      "from": "2026-04-15T00:00:00Z",
+      "to": "2026-04-24T00:00:00Z"
+    },
+    "status": 200,
+    "billable": true,
+    "cache_key": "4fe524ec3cb8440ec165"
+  },
+  {
+    "time": "2026-10-24T11:11:34Z",
+    "endpoint": "account",
+    "params": {},
+    "status": 200,
+    "billable": false,
+    "cache_key": null
+  },
+  {
+    "time": "2026-10-24T11:11:35Z",
+    "endpoint": "fixtures",
+    "params": {
+      "sportId": 17,
+      "statusId": 2,
+      "from": "2026-04-24T00:00:00Z",
+      "to": "2026-05-03T00:00:00Z"
+    },
+    "status": 200,
+    "billable": true,
+    "cache_key": "a2fd2efe4948699948db"
+  },
+  {
+    "time": "2026-10-24T11:11:40Z",
+    "endpoint": "account",
+    "params": {},
+    "status": 200,
+    "billable": false,
+    "cache_key": null
+  },
+  {
+    "time": "2026-10-24T11:11:40Z",
+    "endpoint": "fixtures",
+    "params": {
+      "sportId": 17,
+      "statusId": 2,
+      "from": "2026-05-03T00:00:00Z",
+      "to": "2026-05-12T00:00:00Z"
+    },
+    "status": 200,
+    "billable": true,
+    "cache_key": "cd600dad4fbf4d5e00b1"
+  },
+  {
+    "time": "2026-10-24T11:11:45Z",
+    "endpoint": "account",
+    "params": {},
+    "status": 200,
+    "billable": false,
+    "cache_key": null
+  },
+  {
+    "time": "2026-10-24T11:11:45Z",
+    "endpoint": "fixtures",
+    "params": {
+      "sportId": 17,
+      "statusId": 2,
+      "from": "2026-05-12T00:00:00Z",
+      "to": "2026-05-21T00:00:00Z"
+    },
+    "status": 200,
+    "billable": true,
+    "cache_key": "bd82e023b2309d094b13"
+  },
+  {
+    "time": "2026-10-24T11:11:50Z",
+    "endpoint": "account",
+    "params": {},
+    "status": 200,
+    "billable": false,
+    "cache_key": null
+  },
+  {
+    "time": "2026-10-24T11:11:50Z",
+    "endpoint": "fixtures",
+    "params": {
+      "sportId": 17,
+      "statusId": 2,
+      "from": "2026-05-21T00:00:00Z",
+      "to": "2026-05-30T00:00:00Z"
+    },
+    "status": 200,
+    "billable": true,
+    "cache_key": "d0f96671b9543da3ea9a"
+  },
+  {
+    "time": "2026-10-24T11:11:55Z",
+    "endpoint": "account",
+    "params": {},
+    "status": 200,
+    "billable": false,
+    "cache_key": null
+  },
+  {
+    "time": "2026-10-24T11:11:55Z",
+    "endpoint": "fixtures",
+    "params": {
+      "sportId": 17,
+      "statusId": 2,
+      "from": "2026-05-30T00:00:00Z",
+      "to": "2026-06-08T00:00:00Z"
+    },
+    "status": 200,
+    "billable": true,
+    "cache_key": "c6c44c54a4777609d885"
+  },
+  {
+    "time": "2026-10-24T11:12:00Z",
+    "endpoint": "account",
+    "params": {},
+    "status": 200,
+    "billable": false,
+    "cache_key": null
+  },
+  {
+    "time": "2026-10-24T11:12:01Z",
+    "endpoint": "fixtures",
+    "params": {
+      "sportId": 17,
+      "statusId": 2,
+      "from": "2026-06-08T00:00:00Z",
+      "to": "2026-06-17T00:00:00Z"
+    },
+    "status": 200,
+    "billable": true,
+    "cache_key": "bd74362ffcb03fb081ac"
+  },
+  {
+    "time": "2026-10-24T11:12:06Z",
+    "endpoint": "account",
+    "params": {},
+    "status": 200,
+    "billable": false,
+    "cache_key": null
+  },
+  {
+    "time": "2026-10-24T11:12:06Z",
+    "endpoint": "fixtures",
+    "params": {
+      "sportId": 17,
+      "statusId": 2,
+      "from": "2026-06-17T00:00:00Z",
+      "to": "2026-06-26T00:00:00Z"
+    },
+    "status": 200,
+    "billable": true,
+    "cache_key": "832538ad6016a116e084"
+  },
+  {
+    "time": "2026-10-24T11:12:11Z",
+    "endpoint": "account",
+    "params": {},
+    "status": 200,
+    "billable": false,
+    "cache_key": null
+  },
+  {
+    "time": "2026-10-24T11:12:11Z",
+    "endpoint": "fixtures",
+    "params": {
+      "sportId": 17,
+      "statusId": 2,
+      "from": "2026-06-26T00:00:00Z",
+      "to": "2026-07-01T00:00:00Z"
+    },
+    "status": 200,
+    "billable": true,
+    "cache_key": "102a4643222ddd88ec1e"
+  },
+  {
+    "time": "2026-10-24T11:12:16Z",
+    "endpoint": "account",
+    "params": {},
+    "status": 200,
+    "billable": false,
+    "cache_key": null
+  },
+  {
+    "time": "2026-10-24T11:12:16Z",
+    "endpoint": "fixtures",
+    "params": {
+      "sportId": 17,
+      "statusId": 2,
+      "from": "2026-07-10T00:00:00Z",
+      "to": "2026-07-19T00:00:00Z"
+    },
+    "status": 200,
+    "billable": true,
+    "cache_key": "14241e5b17591ec57c75"
+  },
+  {
+    "time": "2026-10-24T11:12:21Z",
+    "endpoint": "account",
+    "params": {},
+    "status": 200,
+    "billable": false,
+    "cache_key": null
+  },
+  {
+    "time": "2026-10-24T11:12:21Z",
+    "endpoint": "fixtures",
+    "params": {
+      "sportId": 17,
+      "statusId": 2,
+      "from": "2026-07-19T00:00:00Z",
+      "to": "2026-07-28T00:00:00Z"
+    },
+    "status": 200,
+    "billable": true,
+    "cache_key": "57126f94e4a42ac5bf8f"
+  },
+  {
+    "time": "2026-10-24T11:12:26Z",
+    "endpoint": "account",
+    "params": {},
+    "status": 200,
+    "billable": false,
+    "cache_key": null
+  },
+  {
+    "time": "2026-10-24T11:12:27Z",
+    "endpoint": "fixtures",
+    "params": {
+      "sportId": 17,
+      "statusId": 2,
+      "from": "2026-07-28T00:00:00Z",
+      "to": "2026-08-06T00:00:00Z"
+    },
+    "status": 200,
+    "billable": true,
+    "cache_key": "91301e3507b4f93edd96"
+  },
+  {
+    "time": "2026-10-24T11:12:32Z",
+    "endpoint": "account",
+    "params": {},
+    "status": 200,
+    "billable": false,
+    "cache_key": null
+  },
+  {
+    "time": "2026-10-24T11:12:32Z",
+    "endpoint": "fixtures",
+    "params": {
+      "sportId": 17,
+      "statusId": 2,
+      "from": "2026-08-06T00:00:00Z",
+      "to": "2026-08-15T00:00:00Z"
+    },
+    "status": 200,
+    "billable": true,
+    "cache_key": "53115ced9ba66c710378"
+  },
+  {
+    "time": "2026-10-24T11:12:37Z",
+    "endpoint": "account",
+    "params": {},
+    "status": 200,
+    "billable": false,
+    "cache_key": null
+  },
+  {
+    "time": "2026-10-24T11:12:37Z",
+    "endpoint": "fixtures",
+    "params": {
+      "sportId": 17,
+      "statusId": 2,
+      "from": "2026-08-15T00:00:00Z",
+      "to": "2026-08-24T00:00:00Z"
+    },
+    "status": 200,
+    "billable": true,
+    "cache_key": "b0ad1f592a485f1c3ab4"
+  },
+  {
+    "time": "2026-10-24T11:12:42Z",
+    "endpoint": "account",
+    "params": {},
+    "status": 200,
+    "billable": false,
+    "cache_key": null
+  },
+  {
+    "time": "2026-10-24T11:12:42Z",
+    "endpoint": "fixtures",
+    "params": {
+      "sportId": 17,
+      "statusId": 2,
+      "from": "2026-08-24T00:00:00Z",
+      "to": "2026-09-02T00:00:00Z"
+    },
+    "status": 200,
+    "billable": true,
+    "cache_key": "550a67eeb11e731aa514"
+  },
+  {
+    "time": "2026-10-24T11:12:47Z",
+    "endpoint": "account",
+    "params": {},
+    "status": 200,
+    "billable": false,
+    "cache_key": null
+  },
+  {
+    "time": "2026-10-24T11:12:48Z",
+    "endpoint": "fixtures",
+    "params": {
+      "sportId": 17,
+      "statusId": 2,
+      "from": "2026-09-02T00:00:00Z",
+      "to": "2026-09-11T00:00:00Z"
+    },
+    "status": 200,
+    "billable": true,
+    "cache_key": "cf14b4bf08db85166bff"
+  },
+  {
+    "time": "2026-10-24T11:12:52Z",
+    "endpoint": "account",
+    "params": {},
+    "status": 429,
+    "billable": false,
+    "cache_key": null
+  },
+  {
+    "time": "2026-10-24T11:13:03Z",
+    "endpoint": "account",
+    "params": {},
+    "status": 200,
+    "billable": false,
+    "cache_key": null
+  },
+  {
+    "time": "2026-10-24T11:13:03Z",
+    "endpoint": "fixtures",
+    "params": {
+      "sportId": 17,
+      "statusId": 2,
+      "from": "2026-09-11T00:00:00Z",
+      "to": "2026-09-20T00:00:00Z"
+    },
+    "status": 200,
+    "billable": true,
+    "cache_key": "2cb17b1df39de272b370"
+  },
+  {
+    "time": "2026-10-24T11:13:08Z",
+    "endpoint": "account",
+    "params": {},
+    "status": 200,
+    "billable": false,
+    "cache_key": null
+  },
+  {
+    "time": "2026-10-24T11:13:08Z",
+    "endpoint": "fixtures",
+    "params": {
+      "sportId": 17,
+      "statusId": 2,
+      "from": "2026-09-20T00:00:00Z",
+      "to": "2026-09-29T00:00:00Z"
+    },
+    "status": 200,
+    "billable": true,
+    "cache_key": "e60c988690215b94cfe4"
+  },
+  {
+    "time": "2026-10-24T11:13:13Z",
+    "endpoint": "account",
+    "params": {},
+    "status": 200,
+    "billable": false,
+    "cache_key": null
+  },
+  {
+    "time": "2026-10-24T11:13:13Z",
+    "endpoint": "fixtures",
+    "params": {
+      "sportId": 17,
+      "statusId": 2,
+      "from": "2026-09-29T00:00:00Z",
+      "to": "2026-10-08T00:00:00Z"
+    },
+    "status": 200,
+    "billable": true,
+    "cache_key": "fd83a2d6d99861edb93d"
+  },
+  {
+    "time": "2026-10-24T11:13:18Z",
+    "endpoint": "account",
+    "params": {},
+    "status": 200,
+    "billable": false,
+    "cache_key": null
+  },
+  {
+    "time": "2026-10-24T11:13:19Z",
+    "endpoint": "fixtures",
+    "params": {
+      "sportId": 17,
+      "statusId": 2,
+      "from": "2026-10-08T00:00:00Z",
+      "to": "2026-10-12T00:00:00Z"
+    },
+    "status": 200,
+    "billable": true,
+    "cache_key": "19bccfd1923873874604"
+  },
+  {
+    "time": "2026-10-24T11:13:24Z",
+    "endpoint": "account",
+    "params": {},
+    "status": 200,
+    "billable": false,
+    "cache_key": null
+  },
+  {
+    "time": "2026-10-24T11:13:24Z",
+    "endpoint": "fixtures",
+    "params": {
+      "sportId": 17,
+      "statusId": 2,
+      "from": "2026-10-21T00:00:00Z",
+      "to": "2026-10-24T00:00:00Z"
+    },
+    "status": 200,
+    "billable": true,
+    "cache_key": "e4cdd573fe61c4dd0894"
+  },
+  {
+    "time": "2026-10-24T11:13:30Z",
+    "endpoint": "account",
+    "params": {},
+    "status": 200,
+    "billable": false,
+    "cache_key": null
+  },
+  {
+    "time": "2026-10-24T11:13:31Z",
+    "endpoint": "markets",
+    "params": {},
+    "status": 200,
+    "billable": true,
+    "cache_key": "b287774fc7aca4043b2a"
+  },
+  {
+    "time": "2026-10-24T11:13:32Z",
+    "endpoint": "account",
+    "params": {},
+    "status": 200,
+    "billable": false,
+    "cache_key": null
+  },
+  {
+    "time": "2026-10-24T11:13:49Z",
+    "endpoint": "historical-odds",
+    "params": {
+      "fixtureId": "id1704852967460380",
+      "bookmakers": "pinnacle,bet365,1xbet"
+    },
+    "status": 404,
+    "billable": false,
+    "cache_key": "2a281f4c0dcdbf9305cd"
+  },
+  {
+    "time": "2026-10-24T11:13:55Z",
+    "endpoint": "historical-odds",
+    "params": {
+      "fixtureId": "id1704460967496534",
+      "bookmakers": "pinnacle,bet365,1xbet"
+    },
+    "status": 404,
+    "billable": false,
+    "cache_key": "a6c597020633536e5859"
+  },
+  {
+    "time": "2026-10-24T11:14:00Z",
+    "endpoint": "historical-odds",
+    "params": {
+      "fixtureId": "id1704460967550564",
+      "bookmakers": "pinnacle,bet365,1xbet"
+    },
+    "status": 404,
+    "billable": false,
+    "cache_key": "7b81907660b15b1c32c5"
+  },
+  {
+    "time": "2026-10-24T11:14:05Z",
+    "endpoint": "historical-odds",
+    "params": {
+      "fixtureId": "id1704460967496774",
+      "bookmakers": "pinnacle,bet365,1xbet"
+    },
+    "status": 404,
+    "billable": false,
+    "cache_key": "c6c234d1f400da632e19"
+  },
+  {
+    "time": "2026-10-24T11:14:10Z",
+    "endpoint": "historical-odds",
+    "params": {
+      "fixtureId": "id1704460967496836",
+      "bookmakers": "pinnacle,bet365,1xbet"
+    },
+    "status": 404,
+    "billable": false,
+    "cache_key": "24e2e8c84cabbceb7b95"
+  },
+  {
+    "time": "2026-10-24T11:14:15Z",
+    "endpoint": "historical-odds",
+    "params": {
+      "fixtureId": "id1704460967496834",
+      "bookmakers": "pinnacle,bet365,1xbet"
+    },
+    "status": 404,
+    "billable": false,
+    "cache_key": "eaa24760a95d86daa487"
   }
 ]
