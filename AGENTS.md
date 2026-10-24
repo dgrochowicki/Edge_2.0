@@ -16,6 +16,7 @@ Archiwum v1–v3: dgrochowicki/Edge (tylko do odczytu).
 - Reguły są zamrożone w `docs/decisions/`. Każda zmiana reguł = nowy plik decyzji z datą (`RRRR-MM-DD-*.md`), nigdy edycja istniejącego.
 - Progi w kodzie tylko w `scanner/config.py`, zgodne z obowiązującymi decyzjami.
 - Nie twórz `METHOD.md` przed werdyktem G0.
+- Każda zmiana, odstępstwo od zlecenia lub przyjęta interpretacja → wpis w `CHANGELOG.md` z hashem commitu.
 
 ## API
 - Budżet API z B0 obowiązuje także po etapie 0: limit liczy OddsPapi (`request_count`, tylko zapytania płatne), twardy limit 200 płatnych / miesiąc.
