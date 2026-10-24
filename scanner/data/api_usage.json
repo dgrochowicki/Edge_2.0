@@ -887,5 +887,1792 @@
     "status": 404,
     "billable": false,
     "cache_key": "eaa24760a95d86daa487"
+  },
+  {
+    "time": "2026-10-24T11:14:21Z",
+    "endpoint": "historical-odds",
+    "params": {
+      "fixtureId": "id1704460967502690",
+      "bookmakers": "pinnacle,bet365,1xbet"
+    },
+    "status": 404,
+    "billable": false,
+    "cache_key": "96bdd37e23d23bf162b3"
+  },
+  {
+    "time": "2026-10-24T11:14:26Z",
+    "endpoint": "historical-odds",
+    "params": {
+      "fixtureId": "id1704852967501712",
+      "bookmakers": "pinnacle,bet365,1xbet"
+    },
+    "status": 404,
+    "billable": false,
+    "cache_key": "aacb98c4bb29327d58de"
+  },
+  {
+    "time": "2026-10-24T11:14:31Z",
+    "endpoint": "historical-odds",
+    "params": {
+      "fixtureId": "id1704439167603594",
+      "bookmakers": "pinnacle,bet365,1xbet"
+    },
+    "status": 404,
+    "billable": false,
+    "cache_key": "48d9cb757e42793241f8"
+  },
+  {
+    "time": "2026-10-24T11:14:36Z",
+    "endpoint": "historical-odds",
+    "params": {
+      "fixtureId": "id1704460967542822",
+      "bookmakers": "pinnacle,bet365,1xbet"
+    },
+    "status": 404,
+    "billable": false,
+    "cache_key": "4a60f3f6d7af6ca5bae5"
+  },
+  {
+    "time": "2026-10-24T11:14:41Z",
+    "endpoint": "historical-odds",
+    "params": {
+      "fixtureId": "id1704852967541194",
+      "bookmakers": "pinnacle,bet365,1xbet"
+    },
+    "status": 404,
+    "billable": false,
+    "cache_key": "c009dd9695739b953477"
+  },
+  {
+    "time": "2026-10-24T11:14:46Z",
+    "endpoint": "historical-odds",
+    "params": {
+      "fixtureId": "id1704852967541196",
+      "bookmakers": "pinnacle,bet365,1xbet"
+    },
+    "status": 404,
+    "billable": false,
+    "cache_key": "22392c203e1cec56692c"
+  },
+  {
+    "time": "2026-10-24T11:14:52Z",
+    "endpoint": "historical-odds",
+    "params": {
+      "fixtureId": "id1704460967572906",
+      "bookmakers": "pinnacle,bet365,1xbet"
+    },
+    "status": 404,
+    "billable": false,
+    "cache_key": "affb84895d9f9c933ce0"
+  },
+  {
+    "time": "2026-10-24T11:14:57Z",
+    "endpoint": "historical-odds",
+    "params": {
+      "fixtureId": "id1704852967572992",
+      "bookmakers": "pinnacle,bet365,1xbet"
+    },
+    "status": 404,
+    "billable": false,
+    "cache_key": "62103abf9a5d7a28d447"
+  },
+  {
+    "time": "2026-10-24T11:15:02Z",
+    "endpoint": "historical-odds",
+    "params": {
+      "fixtureId": "id1704956867573088",
+      "bookmakers": "pinnacle,bet365,1xbet"
+    },
+    "status": 404,
+    "billable": false,
+    "cache_key": "2e2f3573017ada72b0d6"
+  },
+  {
+    "time": "2026-10-24T11:15:07Z",
+    "endpoint": "historical-odds",
+    "params": {
+      "fixtureId": "id1704460967572960",
+      "bookmakers": "pinnacle,bet365,1xbet"
+    },
+    "status": 404,
+    "billable": false,
+    "cache_key": "d72408f923acaaf81946"
+  },
+  {
+    "time": "2026-10-24T11:15:12Z",
+    "endpoint": "historical-odds",
+    "params": {
+      "fixtureId": "id1704353367573166",
+      "bookmakers": "pinnacle,bet365,1xbet"
+    },
+    "status": 404,
+    "billable": false,
+    "cache_key": "d65ad89bb4951977c2ba"
+  },
+  {
+    "time": "2026-10-24T11:15:18Z",
+    "endpoint": "historical-odds",
+    "params": {
+      "fixtureId": "id1704956867573090",
+      "bookmakers": "pinnacle,bet365,1xbet"
+    },
+    "status": 404,
+    "billable": false,
+    "cache_key": "dc278f625ede802e8cd9"
+  },
+  {
+    "time": "2026-10-24T11:15:23Z",
+    "endpoint": "historical-odds",
+    "params": {
+      "fixtureId": "id1704353367573170",
+      "bookmakers": "pinnacle,bet365,1xbet"
+    },
+    "status": 404,
+    "billable": false,
+    "cache_key": "a5ab73ab4b5ec2124e8b"
+  },
+  {
+    "time": "2026-10-24T11:15:28Z",
+    "endpoint": "historical-odds",
+    "params": {
+      "fixtureId": "id1704460967607656",
+      "bookmakers": "pinnacle,bet365,1xbet"
+    },
+    "status": 404,
+    "billable": false,
+    "cache_key": "f7e4ad80ac8111cf0021"
+  },
+  {
+    "time": "2026-10-24T11:15:33Z",
+    "endpoint": "historical-odds",
+    "params": {
+      "fixtureId": "id1704852967690578",
+      "bookmakers": "pinnacle,bet365,1xbet"
+    },
+    "status": 404,
+    "billable": false,
+    "cache_key": "949c1f840d4bdc5c75b3"
+  },
+  {
+    "time": "2026-10-24T11:15:38Z",
+    "endpoint": "historical-odds",
+    "params": {
+      "fixtureId": "id1703162167643460",
+      "bookmakers": "pinnacle,bet365,1xbet"
+    },
+    "status": 404,
+    "billable": false,
+    "cache_key": "4618c6bbb9166960417d"
+  },
+  {
+    "time": "2026-10-24T11:15:43Z",
+    "endpoint": "historical-odds",
+    "params": {
+      "fixtureId": "id1704353567736222",
+      "bookmakers": "pinnacle,bet365,1xbet"
+    },
+    "status": 404,
+    "billable": false,
+    "cache_key": "7396bac28e9fe0919f2b"
+  },
+  {
+    "time": "2026-10-24T11:15:49Z",
+    "endpoint": "historical-odds",
+    "params": {
+      "fixtureId": "id1703162167643462",
+      "bookmakers": "pinnacle,bet365,1xbet"
+    },
+    "status": 404,
+    "billable": false,
+    "cache_key": "b5153543a5c74b754244"
+  },
+  {
+    "time": "2026-10-24T11:15:54Z",
+    "endpoint": "historical-odds",
+    "params": {
+      "fixtureId": "id1704353367733680",
+      "bookmakers": "pinnacle,bet365,1xbet"
+    },
+    "status": 404,
+    "billable": false,
+    "cache_key": "6da0817793a63f0a353a"
+  },
+  {
+    "time": "2026-10-24T11:15:59Z",
+    "endpoint": "historical-odds",
+    "params": {
+      "fixtureId": "id1703162167643464",
+      "bookmakers": "pinnacle,bet365,1xbet"
+    },
+    "status": 404,
+    "billable": false,
+    "cache_key": "889b5005e3a210834543"
+  },
+  {
+    "time": "2026-10-24T11:16:04Z",
+    "endpoint": "historical-odds",
+    "params": {
+      "fixtureId": "id1704353567736224",
+      "bookmakers": "pinnacle,bet365,1xbet"
+    },
+    "status": 404,
+    "billable": false,
+    "cache_key": "f3df97ac327a26bb6b8d"
+  },
+  {
+    "time": "2026-10-24T11:16:09Z",
+    "endpoint": "historical-odds",
+    "params": {
+      "fixtureId": "id1704353367736382",
+      "bookmakers": "pinnacle,bet365,1xbet"
+    },
+    "status": 404,
+    "billable": false,
+    "cache_key": "43d3f8a2d924a2b462d8"
+  },
+  {
+    "time": "2026-10-24T11:16:14Z",
+    "endpoint": "historical-odds",
+    "params": {
+      "fixtureId": "id1703162167643466",
+      "bookmakers": "pinnacle,bet365,1xbet"
+    },
+    "status": 404,
+    "billable": false,
+    "cache_key": "d40f4ee57bdecce11647"
+  },
+  {
+    "time": "2026-10-24T11:16:20Z",
+    "endpoint": "historical-odds",
+    "params": {
+      "fixtureId": "id1704353567736226",
+      "bookmakers": "pinnacle,bet365,1xbet"
+    },
+    "status": 404,
+    "billable": false,
+    "cache_key": "6f03cb1edf14549926f0"
+  },
+  {
+    "time": "2026-10-24T11:16:25Z",
+    "endpoint": "historical-odds",
+    "params": {
+      "fixtureId": "id1704460967650608",
+      "bookmakers": "pinnacle,bet365,1xbet"
+    },
+    "status": 404,
+    "billable": false,
+    "cache_key": "6d86828d120a4965090f"
+  },
+  {
+    "time": "2026-10-24T11:16:30Z",
+    "endpoint": "historical-odds",
+    "params": {
+      "fixtureId": "id1703162167643468",
+      "bookmakers": "pinnacle,bet365,1xbet"
+    },
+    "status": 404,
+    "billable": false,
+    "cache_key": "08514dae89bbb398b136"
+  },
+  {
+    "time": "2026-10-24T11:16:36Z",
+    "endpoint": "historical-odds",
+    "params": {
+      "fixtureId": "id1704460967682836",
+      "bookmakers": "pinnacle,bet365,1xbet"
+    },
+    "status": 404,
+    "billable": false,
+    "cache_key": "3a31567e1a39e84fb26c"
+  },
+  {
+    "time": "2026-10-24T11:16:41Z",
+    "endpoint": "historical-odds",
+    "params": {
+      "fixtureId": "id1704956867773306",
+      "bookmakers": "pinnacle,bet365,1xbet"
+    },
+    "status": 404,
+    "billable": false,
+    "cache_key": "aff5c9fc0014790fac65"
+  },
+  {
+    "time": "2026-10-24T11:16:46Z",
+    "endpoint": "historical-odds",
+    "params": {
+      "fixtureId": "id1704353567736242",
+      "bookmakers": "pinnacle,bet365,1xbet"
+    },
+    "status": 404,
+    "billable": false,
+    "cache_key": "feb8fc548e5423338ac0"
+  },
+  {
+    "time": "2026-10-24T11:16:51Z",
+    "endpoint": "historical-odds",
+    "params": {
+      "fixtureId": "id1703162167754580",
+      "bookmakers": "pinnacle,bet365,1xbet"
+    },
+    "status": 404,
+    "billable": false,
+    "cache_key": "31f3ba10911e343b8017"
+  },
+  {
+    "time": "2026-10-24T11:16:57Z",
+    "endpoint": "historical-odds",
+    "params": {
+      "fixtureId": "id1703162167643472",
+      "bookmakers": "pinnacle,bet365,1xbet"
+    },
+    "status": 404,
+    "billable": false,
+    "cache_key": "4a7cbe8707d62ad9abc2"
+  },
+  {
+    "time": "2026-10-24T11:17:02Z",
+    "endpoint": "historical-odds",
+    "params": {
+      "fixtureId": "id1704353567736260",
+      "bookmakers": "pinnacle,bet365,1xbet"
+    },
+    "status": 404,
+    "billable": false,
+    "cache_key": "06e5a7b7246dfce12df5"
+  },
+  {
+    "time": "2026-10-24T11:17:07Z",
+    "endpoint": "historical-odds",
+    "params": {
+      "fixtureId": "id1703162167643474",
+      "bookmakers": "pinnacle,bet365,1xbet"
+    },
+    "status": 404,
+    "billable": false,
+    "cache_key": "a5c46f24f7542dc05925"
+  },
+  {
+    "time": "2026-10-24T11:17:13Z",
+    "endpoint": "historical-odds",
+    "params": {
+      "fixtureId": "id1704353567736266",
+      "bookmakers": "pinnacle,bet365,1xbet"
+    },
+    "status": 404,
+    "billable": false,
+    "cache_key": "798702e85f466b26e7c8"
+  },
+  {
+    "time": "2026-10-24T11:17:18Z",
+    "endpoint": "historical-odds",
+    "params": {
+      "fixtureId": "id1704353567736272",
+      "bookmakers": "pinnacle,bet365,1xbet"
+    },
+    "status": 404,
+    "billable": false,
+    "cache_key": "232ed9cb3325a40e4f8d"
+  },
+  {
+    "time": "2026-10-24T11:17:23Z",
+    "endpoint": "historical-odds",
+    "params": {
+      "fixtureId": "id1704353367805950",
+      "bookmakers": "pinnacle,bet365,1xbet"
+    },
+    "status": 404,
+    "billable": false,
+    "cache_key": "e39794e4624e6f5c6214"
+  },
+  {
+    "time": "2026-10-24T11:17:27Z",
+    "endpoint": "account",
+    "params": {},
+    "status": 200,
+    "billable": false,
+    "cache_key": null
+  },
+  {
+    "time": "2026-10-24T11:17:28Z",
+    "endpoint": "historical-odds",
+    "params": {
+      "fixtureId": "id1704460967770518",
+      "bookmakers": "pinnacle,bet365,1xbet"
+    },
+    "status": 404,
+    "billable": false,
+    "cache_key": "9b4b8ee597ecd225b5c7"
+  },
+  {
+    "time": "2026-10-24T11:17:33Z",
+    "endpoint": "historical-odds",
+    "params": {
+      "fixtureId": "id1703162167643476",
+      "bookmakers": "pinnacle,bet365,1xbet"
+    },
+    "status": 404,
+    "billable": false,
+    "cache_key": "b86b0fc21f2b86d81a10"
+  },
+  {
+    "time": "2026-10-24T11:17:38Z",
+    "endpoint": "historical-odds",
+    "params": {
+      "fixtureId": "id1704353567821072",
+      "bookmakers": "pinnacle,bet365,1xbet"
+    },
+    "status": 404,
+    "billable": false,
+    "cache_key": "c3c8b9dc29cbdfe790fd"
+  },
+  {
+    "time": "2026-10-24T11:17:44Z",
+    "endpoint": "historical-odds",
+    "params": {
+      "fixtureId": "id1703162167643478",
+      "bookmakers": "pinnacle,bet365,1xbet"
+    },
+    "status": 404,
+    "billable": false,
+    "cache_key": "eb297977fa5baacd85f9"
+  },
+  {
+    "time": "2026-10-24T11:17:49Z",
+    "endpoint": "historical-odds",
+    "params": {
+      "fixtureId": "id1703162167643480",
+      "bookmakers": "pinnacle,bet365,1xbet"
+    },
+    "status": 404,
+    "billable": false,
+    "cache_key": "5e4e987c3d5ee1d348c1"
+  },
+  {
+    "time": "2026-10-24T11:17:54Z",
+    "endpoint": "historical-odds",
+    "params": {
+      "fixtureId": "id1704353567821074",
+      "bookmakers": "pinnacle,bet365,1xbet"
+    },
+    "status": 404,
+    "billable": false,
+    "cache_key": "905087f0cd02a4e71bdb"
+  },
+  {
+    "time": "2026-10-24T11:17:59Z",
+    "endpoint": "historical-odds",
+    "params": {
+      "fixtureId": "id1704956867573096",
+      "bookmakers": "pinnacle,bet365,1xbet"
+    },
+    "status": 404,
+    "billable": false,
+    "cache_key": "1eb424c123ed7ae01e82"
+  },
+  {
+    "time": "2026-10-24T11:18:04Z",
+    "endpoint": "historical-odds",
+    "params": {
+      "fixtureId": "id1703162167643482",
+      "bookmakers": "pinnacle,bet365,1xbet"
+    },
+    "status": 404,
+    "billable": false,
+    "cache_key": "a72854a451298a1d7901"
+  },
+  {
+    "time": "2026-10-24T11:18:10Z",
+    "endpoint": "historical-odds",
+    "params": {
+      "fixtureId": "id1704353567821078",
+      "bookmakers": "pinnacle,bet365,1xbet"
+    },
+    "status": 404,
+    "billable": false,
+    "cache_key": "c0386d95e62f5090fa37"
+  },
+  {
+    "time": "2026-10-24T11:18:15Z",
+    "endpoint": "historical-odds",
+    "params": {
+      "fixtureId": "id1703162167643484",
+      "bookmakers": "pinnacle,bet365,1xbet"
+    },
+    "status": 404,
+    "billable": false,
+    "cache_key": "aefa35e904dd61a85b73"
+  },
+  {
+    "time": "2026-10-24T11:18:20Z",
+    "endpoint": "historical-odds",
+    "params": {
+      "fixtureId": "id1704852967810214",
+      "bookmakers": "pinnacle,bet365,1xbet"
+    },
+    "status": 404,
+    "billable": false,
+    "cache_key": "c3fa4240a8b868c31fc0"
+  },
+  {
+    "time": "2026-10-24T11:18:25Z",
+    "endpoint": "historical-odds",
+    "params": {
+      "fixtureId": "id1703162167643486",
+      "bookmakers": "pinnacle,bet365,1xbet"
+    },
+    "status": 404,
+    "billable": false,
+    "cache_key": "17da32ab606c8a322228"
+  },
+  {
+    "time": "2026-10-24T11:18:30Z",
+    "endpoint": "historical-odds",
+    "params": {
+      "fixtureId": "id1704353567821080",
+      "bookmakers": "pinnacle,bet365,1xbet"
+    },
+    "status": 404,
+    "billable": false,
+    "cache_key": "7b238ec4b966a4fe8fc2"
+  },
+  {
+    "time": "2026-10-24T11:18:35Z",
+    "endpoint": "historical-odds",
+    "params": {
+      "fixtureId": "id1703162167643488",
+      "bookmakers": "pinnacle,bet365,1xbet"
+    },
+    "status": 404,
+    "billable": false,
+    "cache_key": "2b937ee810640a116d70"
+  },
+  {
+    "time": "2026-10-24T11:18:41Z",
+    "endpoint": "historical-odds",
+    "params": {
+      "fixtureId": "id1704353367845624",
+      "bookmakers": "pinnacle,bet365,1xbet"
+    },
+    "status": 404,
+    "billable": false,
+    "cache_key": "9911b97c91fec4ceabc1"
+  },
+  {
+    "time": "2026-10-24T11:18:46Z",
+    "endpoint": "historical-odds",
+    "params": {
+      "fixtureId": "id1704353567821082",
+      "bookmakers": "pinnacle,bet365,1xbet"
+    },
+    "status": 404,
+    "billable": false,
+    "cache_key": "a579e5a201fbe9a7bbf8"
+  },
+  {
+    "time": "2026-10-24T11:18:51Z",
+    "endpoint": "historical-odds",
+    "params": {
+      "fixtureId": "id1703162167643490",
+      "bookmakers": "pinnacle,bet365,1xbet"
+    },
+    "status": 404,
+    "billable": false,
+    "cache_key": "f418cd8b8967886b8236"
+  },
+  {
+    "time": "2026-10-24T11:18:56Z",
+    "endpoint": "historical-odds",
+    "params": {
+      "fixtureId": "id1704353367845626",
+      "bookmakers": "pinnacle,bet365,1xbet"
+    },
+    "status": 404,
+    "billable": false,
+    "cache_key": "c5fa5a16a50921b20ac9"
+  },
+  {
+    "time": "2026-10-24T11:19:02Z",
+    "endpoint": "historical-odds",
+    "params": {
+      "fixtureId": "id1704353567821084",
+      "bookmakers": "pinnacle,bet365,1xbet"
+    },
+    "status": 404,
+    "billable": false,
+    "cache_key": "1e7b13de036134a63a15"
+  },
+  {
+    "time": "2026-10-24T11:19:07Z",
+    "endpoint": "historical-odds",
+    "params": {
+      "fixtureId": "id1704429367870136",
+      "bookmakers": "pinnacle,bet365,1xbet"
+    },
+    "status": 404,
+    "billable": false,
+    "cache_key": "094a58e53407f4b7244b"
+  },
+  {
+    "time": "2026-10-24T11:19:12Z",
+    "endpoint": "historical-odds",
+    "params": {
+      "fixtureId": "id1704439167797326",
+      "bookmakers": "pinnacle,bet365,1xbet"
+    },
+    "status": 404,
+    "billable": false,
+    "cache_key": "8601f7eee1942759c05f"
+  },
+  {
+    "time": "2026-10-24T11:19:17Z",
+    "endpoint": "historical-odds",
+    "params": {
+      "fixtureId": "id1704353567821086",
+      "bookmakers": "pinnacle,bet365,1xbet"
+    },
+    "status": 404,
+    "billable": false,
+    "cache_key": "56cfa368ea75531cc393"
+  },
+  {
+    "time": "2026-10-24T11:19:22Z",
+    "endpoint": "historical-odds",
+    "params": {
+      "fixtureId": "id1704460967845318",
+      "bookmakers": "pinnacle,bet365,1xbet"
+    },
+    "status": 404,
+    "billable": false,
+    "cache_key": "a93fad8681c2c667ef57"
+  },
+  {
+    "time": "2026-10-24T11:19:28Z",
+    "endpoint": "historical-odds",
+    "params": {
+      "fixtureId": "id1704852967883028",
+      "bookmakers": "pinnacle,bet365,1xbet"
+    },
+    "status": 404,
+    "billable": false,
+    "cache_key": "dce976438028c1434646"
+  },
+  {
+    "time": "2026-10-24T11:19:33Z",
+    "endpoint": "historical-odds",
+    "params": {
+      "fixtureId": "id1703162167879028",
+      "bookmakers": "pinnacle,bet365,1xbet"
+    },
+    "status": 404,
+    "billable": false,
+    "cache_key": "88a5c9a32aed4ddb7760"
+  },
+  {
+    "time": "2026-10-24T11:19:38Z",
+    "endpoint": "historical-odds",
+    "params": {
+      "fixtureId": "id1704460967845320",
+      "bookmakers": "pinnacle,bet365,1xbet"
+    },
+    "status": 404,
+    "billable": false,
+    "cache_key": "7d11c1e40a78ddbb6df8"
+  },
+  {
+    "time": "2026-10-24T11:19:43Z",
+    "endpoint": "historical-odds",
+    "params": {
+      "fixtureId": "id1704353367884202",
+      "bookmakers": "pinnacle,bet365,1xbet"
+    },
+    "status": 404,
+    "billable": false,
+    "cache_key": "9753b6c8fd4d3877594b"
+  },
+  {
+    "time": "2026-10-24T11:19:48Z",
+    "endpoint": "historical-odds",
+    "params": {
+      "fixtureId": "id1703162167878600",
+      "bookmakers": "pinnacle,bet365,1xbet"
+    },
+    "status": 404,
+    "billable": false,
+    "cache_key": "a1581d7942a57cc186c2"
+  },
+  {
+    "time": "2026-10-24T11:19:54Z",
+    "endpoint": "historical-odds",
+    "params": {
+      "fixtureId": "id1703162167878384",
+      "bookmakers": "pinnacle,bet365,1xbet"
+    },
+    "status": 404,
+    "billable": false,
+    "cache_key": "e0d9d5df5c6b49aa2888"
+  },
+  {
+    "time": "2026-10-24T11:19:59Z",
+    "endpoint": "historical-odds",
+    "params": {
+      "fixtureId": "id1704439167797630",
+      "bookmakers": "pinnacle,bet365,1xbet"
+    },
+    "status": 404,
+    "billable": false,
+    "cache_key": "768209df561a9069fd62"
+  },
+  {
+    "time": "2026-10-24T11:20:04Z",
+    "endpoint": "historical-odds",
+    "params": {
+      "fixtureId": "id1704353367884206",
+      "bookmakers": "pinnacle,bet365,1xbet"
+    },
+    "status": 404,
+    "billable": false,
+    "cache_key": "da0fef1ec0cdde69fad9"
+  },
+  {
+    "time": "2026-10-24T11:20:09Z",
+    "endpoint": "historical-odds",
+    "params": {
+      "fixtureId": "id1703162167878378",
+      "bookmakers": "pinnacle,bet365,1xbet"
+    },
+    "status": 404,
+    "billable": false,
+    "cache_key": "aa29ede1a7e9b76b08de"
+  },
+  {
+    "time": "2026-10-24T11:20:14Z",
+    "endpoint": "historical-odds",
+    "params": {
+      "fixtureId": "id1704353567885454",
+      "bookmakers": "pinnacle,bet365,1xbet"
+    },
+    "status": 404,
+    "billable": false,
+    "cache_key": "cf9f34585f1de2e44e93"
+  },
+  {
+    "time": "2026-10-24T11:20:20Z",
+    "endpoint": "historical-odds",
+    "params": {
+      "fixtureId": "id1704353567885456",
+      "bookmakers": "pinnacle,bet365,1xbet"
+    },
+    "status": 404,
+    "billable": false,
+    "cache_key": "125b82b643563253ec33"
+  },
+  {
+    "time": "2026-10-24T11:20:25Z",
+    "endpoint": "historical-odds",
+    "params": {
+      "fixtureId": "id1704852967883032",
+      "bookmakers": "pinnacle,bet365,1xbet"
+    },
+    "status": 404,
+    "billable": false,
+    "cache_key": "23805a2c422cdca63552"
+  },
+  {
+    "time": "2026-10-24T11:20:30Z",
+    "endpoint": "historical-odds",
+    "params": {
+      "fixtureId": "id1704956867844100",
+      "bookmakers": "pinnacle,bet365,1xbet"
+    },
+    "status": 404,
+    "billable": false,
+    "cache_key": "5fca6548595710f2f4a5"
+  },
+  {
+    "time": "2026-10-24T11:20:35Z",
+    "endpoint": "historical-odds",
+    "params": {
+      "fixtureId": "id1703162167878708",
+      "bookmakers": "pinnacle,bet365,1xbet"
+    },
+    "status": 404,
+    "billable": false,
+    "cache_key": "62839bcf95db438b2771"
+  },
+  {
+    "time": "2026-10-24T11:20:40Z",
+    "endpoint": "historical-odds",
+    "params": {
+      "fixtureId": "id1704353567885458",
+      "bookmakers": "pinnacle,bet365,1xbet"
+    },
+    "status": 404,
+    "billable": false,
+    "cache_key": "294c5c144f86d7cd5b9b"
+  },
+  {
+    "time": "2026-10-24T11:20:46Z",
+    "endpoint": "historical-odds",
+    "params": {
+      "fixtureId": "id1703162167878386",
+      "bookmakers": "pinnacle,bet365,1xbet"
+    },
+    "status": 404,
+    "billable": false,
+    "cache_key": "520c2e607eb2a55e5320"
+  },
+  {
+    "time": "2026-10-24T11:20:51Z",
+    "endpoint": "historical-odds",
+    "params": {
+      "fixtureId": "id1704956867845186",
+      "bookmakers": "pinnacle,bet365,1xbet"
+    },
+    "status": 404,
+    "billable": false,
+    "cache_key": "f37cd87d99112b0e642c"
+  },
+  {
+    "time": "2026-10-24T11:20:56Z",
+    "endpoint": "historical-odds",
+    "params": {
+      "fixtureId": "id1703162167878380",
+      "bookmakers": "pinnacle,bet365,1xbet"
+    },
+    "status": 404,
+    "billable": false,
+    "cache_key": "a61b98b5ba8e5c0a0a56"
+  },
+  {
+    "time": "2026-10-24T11:21:01Z",
+    "endpoint": "historical-odds",
+    "params": {
+      "fixtureId": "id1704353567885460",
+      "bookmakers": "pinnacle,bet365,1xbet"
+    },
+    "status": 404,
+    "billable": false,
+    "cache_key": "d2d1bd789f8784a76a53"
+  },
+  {
+    "time": "2026-10-24T11:21:06Z",
+    "endpoint": "historical-odds",
+    "params": {
+      "fixtureId": "id1704956867845188",
+      "bookmakers": "pinnacle,bet365,1xbet"
+    },
+    "status": 404,
+    "billable": false,
+    "cache_key": "18b80678a640321b0041"
+  },
+  {
+    "time": "2026-10-24T11:21:12Z",
+    "endpoint": "historical-odds",
+    "params": {
+      "fixtureId": "id1703162167878376",
+      "bookmakers": "pinnacle,bet365,1xbet"
+    },
+    "status": 404,
+    "billable": false,
+    "cache_key": "36081a00ff4eb1ffde36"
+  },
+  {
+    "time": "2026-10-24T11:21:17Z",
+    "endpoint": "historical-odds",
+    "params": {
+      "fixtureId": "id1704353567885462",
+      "bookmakers": "pinnacle,bet365,1xbet"
+    },
+    "status": 404,
+    "billable": false,
+    "cache_key": "3121cdc9a2a14909b5ef"
+  },
+  {
+    "time": "2026-10-24T11:21:22Z",
+    "endpoint": "historical-odds",
+    "params": {
+      "fixtureId": "id1704353567885464",
+      "bookmakers": "pinnacle,bet365,1xbet"
+    },
+    "status": 404,
+    "billable": false,
+    "cache_key": "c739853431690e4ba91f"
+  },
+  {
+    "time": "2026-10-24T11:21:27Z",
+    "endpoint": "historical-odds",
+    "params": {
+      "fixtureId": "id1704353367948206",
+      "bookmakers": "pinnacle,bet365,1xbet"
+    },
+    "status": 404,
+    "billable": false,
+    "cache_key": "3d7e818660f8c4f3d94d"
+  },
+  {
+    "time": "2026-10-24T11:21:32Z",
+    "endpoint": "historical-odds",
+    "params": {
+      "fixtureId": "id1704460967917594",
+      "bookmakers": "pinnacle,bet365,1xbet"
+    },
+    "status": 404,
+    "billable": false,
+    "cache_key": "e7ceb49923f95e2dba89"
+  },
+  {
+    "time": "2026-10-24T11:21:37Z",
+    "endpoint": "historical-odds",
+    "params": {
+      "fixtureId": "id1704852967883222",
+      "bookmakers": "pinnacle,bet365,1xbet"
+    },
+    "status": 404,
+    "billable": false,
+    "cache_key": "7a6f95a0f84c49450556"
+  },
+  {
+    "time": "2026-10-24T11:21:43Z",
+    "endpoint": "historical-odds",
+    "params": {
+      "fixtureId": "id1704460967918720",
+      "bookmakers": "pinnacle,bet365,1xbet"
+    },
+    "status": 404,
+    "billable": false,
+    "cache_key": "88bde62782f24fc1010d"
+  },
+  {
+    "time": "2026-10-24T11:21:48Z",
+    "endpoint": "historical-odds",
+    "params": {
+      "fixtureId": "id1704353367948216",
+      "bookmakers": "pinnacle,bet365,1xbet"
+    },
+    "status": 404,
+    "billable": false,
+    "cache_key": "94d43c208d0ee30971e2"
+  },
+  {
+    "time": "2026-10-24T11:21:53Z",
+    "endpoint": "historical-odds",
+    "params": {
+      "fixtureId": "id1704353568009848",
+      "bookmakers": "pinnacle,bet365,1xbet"
+    },
+    "status": 404,
+    "billable": false,
+    "cache_key": "50394028a62372911a57"
+  },
+  {
+    "time": "2026-10-24T11:21:58Z",
+    "endpoint": "historical-odds",
+    "params": {
+      "fixtureId": "id1704353367948486",
+      "bookmakers": "pinnacle,bet365,1xbet"
+    },
+    "status": 404,
+    "billable": false,
+    "cache_key": "b207038484b85e585c0e"
+  },
+  {
+    "time": "2026-10-24T11:22:03Z",
+    "endpoint": "historical-odds",
+    "params": {
+      "fixtureId": "id1704429367960284",
+      "bookmakers": "pinnacle,bet365,1xbet"
+    },
+    "status": 404,
+    "billable": false,
+    "cache_key": "79ffc0413705f796a446"
+  },
+  {
+    "time": "2026-10-24T11:22:09Z",
+    "endpoint": "historical-odds",
+    "params": {
+      "fixtureId": "id1704353568009852",
+      "bookmakers": "pinnacle,bet365,1xbet"
+    },
+    "status": 404,
+    "billable": false,
+    "cache_key": "36fb1594ffd56efba63a"
+  },
+  {
+    "time": "2026-10-24T11:22:14Z",
+    "endpoint": "historical-odds",
+    "params": {
+      "fixtureId": "id1704460968012662",
+      "bookmakers": "pinnacle,bet365,1xbet"
+    },
+    "status": 404,
+    "billable": false,
+    "cache_key": "cc0d9d77a0f7465fd72c"
+  },
+  {
+    "time": "2026-10-24T11:22:18Z",
+    "endpoint": "account",
+    "params": {},
+    "status": 200,
+    "billable": false,
+    "cache_key": null
+  },
+  {
+    "time": "2026-10-24T11:22:19Z",
+    "endpoint": "historical-odds",
+    "params": {
+      "fixtureId": "id1704353368016076",
+      "bookmakers": "pinnacle,bet365,1xbet"
+    },
+    "status": 404,
+    "billable": false,
+    "cache_key": "945aca47b99ad1032f95"
+  },
+  {
+    "time": "2026-10-24T11:22:24Z",
+    "endpoint": "historical-odds",
+    "params": {
+      "fixtureId": "id1704460968012666",
+      "bookmakers": "pinnacle,bet365,1xbet"
+    },
+    "status": 404,
+    "billable": false,
+    "cache_key": "ae772fa94da925f4fd8b"
+  },
+  {
+    "time": "2026-10-24T11:22:29Z",
+    "endpoint": "historical-odds",
+    "params": {
+      "fixtureId": "id1704353368015972",
+      "bookmakers": "pinnacle,bet365,1xbet"
+    },
+    "status": 404,
+    "billable": false,
+    "cache_key": "e26bc5e3f38bf541956a"
+  },
+  {
+    "time": "2026-10-24T11:22:34Z",
+    "endpoint": "historical-odds",
+    "params": {
+      "fixtureId": "id1704353568009854",
+      "bookmakers": "pinnacle,bet365,1xbet"
+    },
+    "status": 404,
+    "billable": false,
+    "cache_key": "e48d43481817741c2ff9"
+  },
+  {
+    "time": "2026-10-24T11:22:40Z",
+    "endpoint": "historical-odds",
+    "params": {
+      "fixtureId": "id1704353368015974",
+      "bookmakers": "pinnacle,bet365,1xbet"
+    },
+    "status": 404,
+    "billable": false,
+    "cache_key": "934cd434bd3a12a015cf"
+  },
+  {
+    "time": "2026-10-24T11:22:46Z",
+    "endpoint": "historical-odds",
+    "params": {
+      "fixtureId": "id1704353568009856",
+      "bookmakers": "pinnacle,bet365,1xbet"
+    },
+    "status": 404,
+    "billable": false,
+    "cache_key": "f871c0d5ec756dbc6671"
+  },
+  {
+    "time": "2026-10-24T11:22:51Z",
+    "endpoint": "historical-odds",
+    "params": {
+      "fixtureId": "id1704956868018738",
+      "bookmakers": "pinnacle,bet365,1xbet"
+    },
+    "status": 404,
+    "billable": false,
+    "cache_key": "58591f8cafc1b1d2a147"
+  },
+  {
+    "time": "2026-10-24T11:22:56Z",
+    "endpoint": "historical-odds",
+    "params": {
+      "fixtureId": "id1704353368016128",
+      "bookmakers": "pinnacle,bet365,1xbet"
+    },
+    "status": 404,
+    "billable": false,
+    "cache_key": "8d3525e5ffbdc21db197"
+  },
+  {
+    "time": "2026-10-24T11:23:01Z",
+    "endpoint": "historical-odds",
+    "params": {
+      "fixtureId": "id1704353568009858",
+      "bookmakers": "pinnacle,bet365,1xbet"
+    },
+    "status": 404,
+    "billable": false,
+    "cache_key": "c85208c91faa77341bf0"
+  },
+  {
+    "time": "2026-10-24T11:23:06Z",
+    "endpoint": "historical-odds",
+    "params": {
+      "fixtureId": "id1704460968012660",
+      "bookmakers": "pinnacle,bet365,1xbet"
+    },
+    "status": 404,
+    "billable": false,
+    "cache_key": "79c630b9d8daa41fa4b5"
+  },
+  {
+    "time": "2026-10-24T11:23:12Z",
+    "endpoint": "historical-odds",
+    "params": {
+      "fixtureId": "id1704852967922738",
+      "bookmakers": "pinnacle,bet365,1xbet"
+    },
+    "status": 404,
+    "billable": false,
+    "cache_key": "fea387e4c883348a1006"
+  },
+  {
+    "time": "2026-10-24T11:23:17Z",
+    "endpoint": "historical-odds",
+    "params": {
+      "fixtureId": "id1704460968048286",
+      "bookmakers": "pinnacle,bet365,1xbet"
+    },
+    "status": 404,
+    "billable": false,
+    "cache_key": "b94b1ce27f0f146f5ccb"
+  },
+  {
+    "time": "2026-10-24T11:23:22Z",
+    "endpoint": "historical-odds",
+    "params": {
+      "fixtureId": "id1704353367949150",
+      "bookmakers": "pinnacle,bet365,1xbet"
+    },
+    "status": 404,
+    "billable": false,
+    "cache_key": "3b994ea6109bbf7ad030"
+  },
+  {
+    "time": "2026-10-24T11:23:27Z",
+    "endpoint": "historical-odds",
+    "params": {
+      "fixtureId": "id1704353568055180",
+      "bookmakers": "pinnacle,bet365,1xbet"
+    },
+    "status": 404,
+    "billable": false,
+    "cache_key": "73b181cd95b9c1c2f532"
+  },
+  {
+    "time": "2026-10-24T11:23:32Z",
+    "endpoint": "historical-odds",
+    "params": {
+      "fixtureId": "id1704353367949152",
+      "bookmakers": "pinnacle,bet365,1xbet"
+    },
+    "status": 404,
+    "billable": false,
+    "cache_key": "58ef95dccbfcf8e4e1e7"
+  },
+  {
+    "time": "2026-10-24T11:23:37Z",
+    "endpoint": "historical-odds",
+    "params": {
+      "fixtureId": "id1704429368054914",
+      "bookmakers": "pinnacle,bet365,1xbet"
+    },
+    "status": 404,
+    "billable": false,
+    "cache_key": "dfa4fbbe0949dbf20f3d"
+  },
+  {
+    "time": "2026-10-24T11:23:43Z",
+    "endpoint": "historical-odds",
+    "params": {
+      "fixtureId": "id1704353368016026",
+      "bookmakers": "pinnacle,bet365,1xbet"
+    },
+    "status": 404,
+    "billable": false,
+    "cache_key": "38aeae91c8fee912c20d"
+  },
+  {
+    "time": "2026-10-24T11:23:48Z",
+    "endpoint": "historical-odds",
+    "params": {
+      "fixtureId": "id1704353568055182",
+      "bookmakers": "pinnacle,bet365,1xbet"
+    },
+    "status": 404,
+    "billable": false,
+    "cache_key": "830a5f4bd38e8d156f72"
+  },
+  {
+    "time": "2026-10-24T11:23:53Z",
+    "endpoint": "historical-odds",
+    "params": {
+      "fixtureId": "id1704353367949238",
+      "bookmakers": "pinnacle,bet365,1xbet"
+    },
+    "status": 404,
+    "billable": false,
+    "cache_key": "d0c15b4dc4c47970f8f2"
+  },
+  {
+    "time": "2026-10-24T11:23:58Z",
+    "endpoint": "historical-odds",
+    "params": {
+      "fixtureId": "id1704429368054916",
+      "bookmakers": "pinnacle,bet365,1xbet"
+    },
+    "status": 404,
+    "billable": false,
+    "cache_key": "b7a75bc62ecbb16897f1"
+  },
+  {
+    "time": "2026-10-24T11:24:03Z",
+    "endpoint": "historical-odds",
+    "params": {
+      "fixtureId": "id1704353568055184",
+      "bookmakers": "pinnacle,bet365,1xbet"
+    },
+    "status": 404,
+    "billable": false,
+    "cache_key": "04c13c98851b026e460e"
+  },
+  {
+    "time": "2026-10-24T11:24:09Z",
+    "endpoint": "historical-odds",
+    "params": {
+      "fixtureId": "id1704460968091866",
+      "bookmakers": "pinnacle,bet365,1xbet"
+    },
+    "status": 404,
+    "billable": false,
+    "cache_key": "5baf17a15d29910db376"
+  },
+  {
+    "time": "2026-10-24T11:24:14Z",
+    "endpoint": "historical-odds",
+    "params": {
+      "fixtureId": "id1704353368096524",
+      "bookmakers": "pinnacle,bet365,1xbet"
+    },
+    "status": 404,
+    "billable": false,
+    "cache_key": "5e275be9ab61345f5220"
+  },
+  {
+    "time": "2026-10-24T11:24:19Z",
+    "endpoint": "historical-odds",
+    "params": {
+      "fixtureId": "id1704852967960186",
+      "bookmakers": "pinnacle,bet365,1xbet"
+    },
+    "status": 404,
+    "billable": false,
+    "cache_key": "3e7212a4c83312bf20e0"
+  },
+  {
+    "time": "2026-10-24T11:24:24Z",
+    "endpoint": "historical-odds",
+    "params": {
+      "fixtureId": "id1704353368097422",
+      "bookmakers": "pinnacle,bet365,1xbet"
+    },
+    "status": 404,
+    "billable": false,
+    "cache_key": "e5a33466f01cff76de7c"
+  },
+  {
+    "time": "2026-10-24T11:24:29Z",
+    "endpoint": "historical-odds",
+    "params": {
+      "fixtureId": "id1704353368096970",
+      "bookmakers": "pinnacle,bet365,1xbet"
+    },
+    "status": 404,
+    "billable": false,
+    "cache_key": "ed1b405c4e998e0c69ac"
+  },
+  {
+    "time": "2026-10-24T11:24:34Z",
+    "endpoint": "historical-odds",
+    "params": {
+      "fixtureId": "id1703162168098476",
+      "bookmakers": "pinnacle,bet365,1xbet"
+    },
+    "status": 404,
+    "billable": false,
+    "cache_key": "20203423aa577506179a"
+  },
+  {
+    "time": "2026-10-24T11:24:40Z",
+    "endpoint": "historical-odds",
+    "params": {
+      "fixtureId": "id1704353368097424",
+      "bookmakers": "pinnacle,bet365,1xbet"
+    },
+    "status": 404,
+    "billable": false,
+    "cache_key": "7cafaf5119a570413420"
+  },
+  {
+    "time": "2026-10-24T11:24:45Z",
+    "endpoint": "historical-odds",
+    "params": {
+      "fixtureId": "id1704353568107530",
+      "bookmakers": "pinnacle,bet365,1xbet"
+    },
+    "status": 404,
+    "billable": false,
+    "cache_key": "edc6be60ecd167e4c7d0"
+  },
+  {
+    "time": "2026-10-24T11:24:50Z",
+    "endpoint": "historical-odds",
+    "params": {
+      "fixtureId": "id1703162168098478",
+      "bookmakers": "pinnacle,bet365,1xbet"
+    },
+    "status": 404,
+    "billable": false,
+    "cache_key": "dc5c22d99c9d38b38270"
+  },
+  {
+    "time": "2026-10-24T11:24:55Z",
+    "endpoint": "historical-odds",
+    "params": {
+      "fixtureId": "id1704353368097426",
+      "bookmakers": "pinnacle,bet365,1xbet"
+    },
+    "status": 404,
+    "billable": false,
+    "cache_key": "82c880e2c8be4b6fc0f9"
+  },
+  {
+    "time": "2026-10-24T11:25:00Z",
+    "endpoint": "historical-odds",
+    "params": {
+      "fixtureId": "id1704353368096972",
+      "bookmakers": "pinnacle,bet365,1xbet"
+    },
+    "status": 404,
+    "billable": false,
+    "cache_key": "64114e36df215bffd41e"
+  },
+  {
+    "time": "2026-10-24T11:25:06Z",
+    "endpoint": "historical-odds",
+    "params": {
+      "fixtureId": "id1704353568107534",
+      "bookmakers": "pinnacle,bet365,1xbet"
+    },
+    "status": 404,
+    "billable": false,
+    "cache_key": "502cd41e345785f9fbbc"
+  },
+  {
+    "time": "2026-10-24T11:25:11Z",
+    "endpoint": "historical-odds",
+    "params": {
+      "fixtureId": "id1705028468087448",
+      "bookmakers": "pinnacle,bet365,1xbet"
+    },
+    "status": 404,
+    "billable": false,
+    "cache_key": "95f30dd7c6aca2278043"
+  },
+  {
+    "time": "2026-10-24T11:25:16Z",
+    "endpoint": "historical-odds",
+    "params": {
+      "fixtureId": "id1704956868124744",
+      "bookmakers": "pinnacle,bet365,1xbet"
+    },
+    "status": 404,
+    "billable": false,
+    "cache_key": "0dfe778d0411dd0eb0ba"
+  },
+  {
+    "time": "2026-10-24T11:25:21Z",
+    "endpoint": "historical-odds",
+    "params": {
+      "fixtureId": "id1704353368054836",
+      "bookmakers": "pinnacle,bet365,1xbet"
+    },
+    "status": 404,
+    "billable": false,
+    "cache_key": "c7dffcd4d47313a08c9a"
+  },
+  {
+    "time": "2026-10-24T11:25:26Z",
+    "endpoint": "historical-odds",
+    "params": {
+      "fixtureId": "id1704852968014702",
+      "bookmakers": "pinnacle,bet365,1xbet"
+    },
+    "status": 404,
+    "billable": false,
+    "cache_key": "c826e8979c674a674c96"
+  },
+  {
+    "time": "2026-10-24T11:25:32Z",
+    "endpoint": "historical-odds",
+    "params": {
+      "fixtureId": "id1705028468087450",
+      "bookmakers": "pinnacle,bet365,1xbet"
+    },
+    "status": 404,
+    "billable": false,
+    "cache_key": "7f7a3375134ba28953c5"
+  },
+  {
+    "time": "2026-10-24T11:25:37Z",
+    "endpoint": "historical-odds",
+    "params": {
+      "fixtureId": "id1704956868124746",
+      "bookmakers": "pinnacle,bet365,1xbet"
+    },
+    "status": 404,
+    "billable": false,
+    "cache_key": "f17aca190395e4f1d1d2"
+  },
+  {
+    "time": "2026-10-24T11:25:42Z",
+    "endpoint": "historical-odds",
+    "params": {
+      "fixtureId": "id1704353568107536",
+      "bookmakers": "pinnacle,bet365,1xbet"
+    },
+    "status": 404,
+    "billable": false,
+    "cache_key": "b6d61a3469f68165ce6b"
+  },
+  {
+    "time": "2026-10-24T11:25:47Z",
+    "endpoint": "historical-odds",
+    "params": {
+      "fixtureId": "id1703162168098480",
+      "bookmakers": "pinnacle,bet365,1xbet"
+    },
+    "status": 404,
+    "billable": false,
+    "cache_key": "4073952f622f8fc78d36"
+  },
+  {
+    "time": "2026-10-24T11:25:52Z",
+    "endpoint": "historical-odds",
+    "params": {
+      "fixtureId": "id1704353368132174",
+      "bookmakers": "pinnacle,bet365,1xbet"
+    },
+    "status": 404,
+    "billable": false,
+    "cache_key": "896f88355f348195121e"
+  },
+  {
+    "time": "2026-10-24T11:25:58Z",
+    "endpoint": "historical-odds",
+    "params": {
+      "fixtureId": "id1704353568107538",
+      "bookmakers": "pinnacle,bet365,1xbet"
+    },
+    "status": 404,
+    "billable": false,
+    "cache_key": "8c1d7de121d213dfd6e7"
+  },
+  {
+    "time": "2026-10-24T11:26:03Z",
+    "endpoint": "historical-odds",
+    "params": {
+      "fixtureId": "id1703162168098482",
+      "bookmakers": "pinnacle,bet365,1xbet"
+    },
+    "status": 404,
+    "billable": false,
+    "cache_key": "5c69ca9f338971e90957"
+  },
+  {
+    "time": "2026-10-24T11:26:08Z",
+    "endpoint": "historical-odds",
+    "params": {
+      "fixtureId": "id1704353368133014",
+      "bookmakers": "pinnacle,bet365,1xbet"
+    },
+    "status": 404,
+    "billable": false,
+    "cache_key": "38232371394ac8ca4466"
+  },
+  {
+    "time": "2026-10-24T11:26:13Z",
+    "endpoint": "historical-odds",
+    "params": {
+      "fixtureId": "id1704353568107540",
+      "bookmakers": "pinnacle,bet365,1xbet"
+    },
+    "status": 404,
+    "billable": false,
+    "cache_key": "565ded36a2886ed0393e"
+  },
+  {
+    "time": "2026-10-24T11:26:18Z",
+    "endpoint": "historical-odds",
+    "params": {
+      "fixtureId": "id1704353568107542",
+      "bookmakers": "pinnacle,bet365,1xbet"
+    },
+    "status": 404,
+    "billable": false,
+    "cache_key": "2dbe099f9d82c34e5833"
+  },
+  {
+    "time": "2026-10-24T11:26:23Z",
+    "endpoint": "historical-odds",
+    "params": {
+      "fixtureId": "id1704353368169646",
+      "bookmakers": "pinnacle,bet365,1xbet"
+    },
+    "status": 404,
+    "billable": false,
+    "cache_key": "c0e1771925cfba3c9d95"
+  },
+  {
+    "time": "2026-10-24T11:26:29Z",
+    "endpoint": "historical-odds",
+    "params": {
+      "fixtureId": "id1704353568166984",
+      "bookmakers": "pinnacle,bet365,1xbet"
+    },
+    "status": 404,
+    "billable": false,
+    "cache_key": "7c5954453ec07c3c9cfb"
+  },
+  {
+    "time": "2026-10-24T11:26:34Z",
+    "endpoint": "historical-odds",
+    "params": {
+      "fixtureId": "id1703162168166816",
+      "bookmakers": "pinnacle,bet365,1xbet"
+    },
+    "status": 404,
+    "billable": false,
+    "cache_key": "c1dd2d10f9d7273aabb3"
+  },
+  {
+    "time": "2026-10-24T11:26:39Z",
+    "endpoint": "historical-odds",
+    "params": {
+      "fixtureId": "id1704956868124972",
+      "bookmakers": "pinnacle,bet365,1xbet"
+    },
+    "status": 404,
+    "billable": false,
+    "cache_key": "1f9267bbd89f76625054"
+  },
+  {
+    "time": "2026-10-24T11:26:44Z",
+    "endpoint": "historical-odds",
+    "params": {
+      "fixtureId": "id1704353368166266",
+      "bookmakers": "pinnacle,bet365,1xbet"
+    },
+    "status": 404,
+    "billable": false,
+    "cache_key": "3fdc2d28b7c08bdbb755"
+  },
+  {
+    "time": "2026-10-24T11:26:49Z",
+    "endpoint": "historical-odds",
+    "params": {
+      "fixtureId": "id1703162168166818",
+      "bookmakers": "pinnacle,bet365,1xbet"
+    },
+    "status": 404,
+    "billable": false,
+    "cache_key": "dcb68cf8ad6f6bad8ce9"
+  },
+  {
+    "time": "2026-10-24T11:26:55Z",
+    "endpoint": "historical-odds",
+    "params": {
+      "fixtureId": "id1704353368169650",
+      "bookmakers": "pinnacle,bet365,1xbet"
+    },
+    "status": 404,
+    "billable": false,
+    "cache_key": "8e87980069d310a17f10"
+  },
+  {
+    "time": "2026-10-24T11:27:00Z",
+    "endpoint": "historical-odds",
+    "params": {
+      "fixtureId": "id1704353368166268",
+      "bookmakers": "pinnacle,bet365,1xbet"
+    },
+    "status": 404,
+    "billable": false,
+    "cache_key": "8a45f270a431be2ace06"
+  },
+  {
+    "time": "2026-10-24T11:27:05Z",
+    "endpoint": "historical-odds",
+    "params": {
+      "fixtureId": "id1704353568166988",
+      "bookmakers": "pinnacle,bet365,1xbet"
+    },
+    "status": 404,
+    "billable": false,
+    "cache_key": "2b3616b2fc9c40d793bf"
+  },
+  {
+    "time": "2026-10-24T11:27:10Z",
+    "endpoint": "historical-odds",
+    "params": {
+      "fixtureId": "id1704353568166990",
+      "bookmakers": "pinnacle,bet365,1xbet"
+    },
+    "status": 404,
+    "billable": false,
+    "cache_key": "695153af4bad5579a4c0"
+  },
+  {
+    "time": "2026-10-24T11:27:15Z",
+    "endpoint": "historical-odds",
+    "params": {
+      "fixtureId": "id1704353368196870",
+      "bookmakers": "pinnacle,bet365,1xbet"
+    },
+    "status": 404,
+    "billable": false,
+    "cache_key": "cf15911255fb4a83973c"
+  },
+  {
+    "time": "2026-10-24T11:27:20Z",
+    "endpoint": "historical-odds",
+    "params": {
+      "fixtureId": "id1704852968194058",
+      "bookmakers": "pinnacle,bet365,1xbet"
+    },
+    "status": 404,
+    "billable": false,
+    "cache_key": "2d15d17a63d51ad8ffa5"
+  },
+  {
+    "time": "2026-10-24T11:27:26Z",
+    "endpoint": "historical-odds",
+    "params": {
+      "fixtureId": "id1704353368196872",
+      "bookmakers": "pinnacle,bet365,1xbet"
+    },
+    "status": 404,
+    "billable": false,
+    "cache_key": "e365e46f992fc1a242fd"
+  },
+  {
+    "time": "2026-10-24T11:27:31Z",
+    "endpoint": "historical-odds",
+    "params": {
+      "fixtureId": "id1703162168195948",
+      "bookmakers": "pinnacle,bet365,1xbet"
+    },
+    "status": 404,
+    "billable": false,
+    "cache_key": "c2e9483b9e5a83a65282"
+  },
+  {
+    "time": "2026-10-24T11:27:36Z",
+    "endpoint": "historical-odds",
+    "params": {
+      "fixtureId": "id1704353568197660",
+      "bookmakers": "pinnacle,bet365,1xbet"
+    },
+    "status": 404,
+    "billable": false,
+    "cache_key": "12fb5c9284941847adf4"
+  },
+  {
+    "time": "2026-10-24T11:27:41Z",
+    "endpoint": "historical-odds",
+    "params": {
+      "fixtureId": "id1704429368197668",
+      "bookmakers": "pinnacle,bet365,1xbet"
+    },
+    "status": 404,
+    "billable": false,
+    "cache_key": "9990e7836aa277611ac0"
+  },
+  {
+    "time": "2026-10-24T11:27:46Z",
+    "endpoint": "historical-odds",
+    "params": {
+      "fixtureId": "id1704353368169656",
+      "bookmakers": "pinnacle,bet365,1xbet"
+    },
+    "status": 404,
+    "billable": false,
+    "cache_key": "ce99675aebf1103129f6"
+  },
+  {
+    "time": "2026-10-24T11:27:51Z",
+    "endpoint": "historical-odds",
+    "params": {
+      "fixtureId": "id1704353568197662",
+      "bookmakers": "pinnacle,bet365,1xbet"
+    },
+    "status": 404,
+    "billable": false,
+    "cache_key": "8d79a665622503f225e7"
+  },
+  {
+    "time": "2026-10-24T11:27:57Z",
+    "endpoint": "historical-odds",
+    "params": {
+      "fixtureId": "id1704956868196836",
+      "bookmakers": "pinnacle,bet365,1xbet"
+    },
+    "status": 404,
+    "billable": false,
+    "cache_key": "3a3109f21205990a4848"
+  },
+  {
+    "time": "2026-10-24T11:28:02Z",
+    "endpoint": "historical-odds",
+    "params": {
+      "fixtureId": "id1704429368197672",
+      "bookmakers": "pinnacle,bet365,1xbet"
+    },
+    "status": 404,
+    "billable": false,
+    "cache_key": "9e9add5b1fce03346bdc"
+  },
+  {
+    "time": "2026-10-24T11:28:07Z",
+    "endpoint": "historical-odds",
+    "params": {
+      "fixtureId": "id1704353368236948",
+      "bookmakers": "pinnacle,bet365,1xbet"
+    },
+    "status": 404,
+    "billable": false,
+    "cache_key": "e57182ec8d4e73134e9c"
+  },
+  {
+    "time": "2026-10-24T11:28:12Z",
+    "endpoint": "historical-odds",
+    "params": {
+      "fixtureId": "id1704956868196838",
+      "bookmakers": "pinnacle,bet365,1xbet"
+    },
+    "status": 404,
+    "billable": false,
+    "cache_key": "614708fb497d12cd69a4"
   }
 ]

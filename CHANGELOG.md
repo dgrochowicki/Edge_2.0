@@ -19,7 +19,7 @@ Reguły metody są w `docs/decisions/` (zmiana reguł = nowy plik decyzji); tu t
 | O6 | C, G | brak wiersza STS w pokryciu | STS nie występuje w OddsPapi | `d7264ec` |
 | O7 | 10.8 | wyniki z `settlements` zamiast `scores` | ten sam koszt; zwycięzca wprost z rynku 171 (WIN/LOSE) | `984e267` |
 | O8 | rewizja | rewizja `d7264ec` edytowała plik zlecenia | zasada „nowy plik decyzji” (AGENTS.md) wprowadzona później | `eb1a4c5` |
-| O9 | 10.8, B | wyniki meczów z publicznych danych Valve VRS (github.com/ValveSoftware/counter-strike_regional_standings @ `eec4853`, snapshoty do 2026-10-05) zamiast płatnych `settlements`; dopasowanie: para drużyn (nazwa lub skrót, znormalizowane) + data ±1 dzień; sprzeczne kandydaty → brak wyniku. Przydział płatnych wyników z 10.8 nie jest używany | decyzja Doma: 1 płatne zapytanie = 1 mecz (< 7), więc budżet nie wystarczy; źródło wyników nie zmienia reguł | `COMMIT_O9` |
+| O9 | 10.8, B | wyniki meczów z publicznych danych Valve VRS (github.com/ValveSoftware/counter-strike_regional_standings @ `eec4853`, snapshoty do 2026-10-05) zamiast płatnych `settlements`; dopasowanie: para drużyn (nazwa lub skrót, znormalizowane) + data ±1 dzień; sprzeczne kandydaty → brak wyniku. Przydział płatnych wyników z 10.8 nie jest używany | decyzja Doma: 1 płatne zapytanie = 1 mecz (< 7), więc budżet nie wystarczy; źródło wyników nie zmienia reguł | `a340c81` |
 
 ## Interpretacje (zlecenie nie rozstrzygało)
 
@@ -32,7 +32,7 @@ Reguły metody są w `docs/decisions/` (zmiana reguł = nowy plik decyzji); tu t
 
 ## 2026-10-24
 
-- **Wyniki z Valve VRS** (O9). Dopasowanie do `fixtures`: wszystkie 3 636/5 806 (62,6%); z `pinnacleId` 1 493/2 177 (68,6%); z `pinnacleId` i startem ≤ 2026-10-05 (zasięg VRS) 1 493/2 015 (74,1%); niejednoznaczne 12. Walidacja na rozliczonych predykcjach `Edge@483374c` (tylko odczyt): zgodne 190/192 (99,0%), niedopasowane 63, niejednoznaczne 3. Mecze po 2026-10-05 bez wyniku. (`COMMIT_O9`)
+- **Wyniki z Valve VRS** (O9). Dopasowanie do `fixtures`: wszystkie 3 636/5 806 (62,6%); z `pinnacleId` 1 493/2 177 (68,6%); z `pinnacleId` i startem ≤ 2026-10-05 (zasięg VRS) 1 493/2 015 (74,1%); niejednoznaczne 12. Walidacja na rozliczonych predykcjach `Edge@483374c` (tylko odczyt): zgodne 190/192 (99,0%), niedopasowane 63, niejednoznaczne 3. Mecze po 2026-10-05 bez wyniku. (`a340c81`)
 - **Historia kursów:** wszystkie mecze ze stycznia 2026 zwracają 404 (166 kolejnych) — historia zaczyna się później niż „styczeń 2026” z dokumentacji; dokładna data po zakończeniu pobierania.
 
 - **B w toku.** `fixtures` 2026: 5 806 meczów CS2, 2 177 z `pinnacleId`; `markets`: 171 = Winner, 171 → uczestnik 1, 172 → uczestnik 2. Zużycie 37/200 płatnych. Kursy pobierane w tle. (`984e267`)
