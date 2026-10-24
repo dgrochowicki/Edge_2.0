@@ -96,29 +96,40 @@ def has_pinnacle_prestart(body, start_time):
     return False
 
 
+# Provider history starts here: binary search 2026-10-24 -- last 404 at
+# 2026-05-22T14:00Z, first data at 2026-05-22T23:00Z (CHANGELOG). Earlier
+# fixtures are not requested and are marked "brak historii u dostawcy".
+HISTORY_START = "2026-05-22T14:00:01.000Z"
+
+
 def odds(client):
-    soft = config.SOFT_BOOKS
-    groups = [[config.PINNACLE] + soft[:2], soft[2:5], soft[5:8]]
-    fx = [f for f in all_fixtures() if (f.get("externalProviders") or {}).get("pinnacleId")]
-    print(f"{len(fx)} fixtures with pinnacleId")
+    soft = list(config.SOFT_BOOKS)  # frozen H1 candidate set (zlecenie 10.6), decision by Dom 2026-10-24
+    groups = [[config.PINNACLE] + soft[:2]] + [soft[i:i + 3] for i in range(2, len(soft), 3)]
+    pin = [f for f in all_fixtures() if (f.get("externalProviders") or {}).get("pinnacleId")]
+    no_hist = [f for f in pin if f["startTime"] < HISTORY_START]
+    (oddspapi.DATA_DIR / "no_history.csv").write_text(
+        "match_id,start_time,reason\n" + "".join(f"{f['fixtureId']},{f['startTime']},brak historii u dostawcy\n" for f in no_hist))
+    fx = sorted((f for f in pin if f["startTime"] >= HISTORY_START), key=lambda f: f["startTime"], reverse=True)
+    print(f"{len(pin)} fixtures with pinnacleId: {len(no_hist)} before {HISTORY_START} (skipped), "
+          f"{len(fx)} to fetch newest-first; {len(soft)} soft books in {len(groups)} calls/match", flush=True)
     stats = {"pinnacle_prestart": 0, "no_pinnacle": 0, "not_found": 0}
     for i, f in enumerate(fx, 1):
         try:
             body, _ = client.get("historical-odds", fixtureId=f["fixtureId"], bookmakers=",".join(groups[0]))
+            ok = has_pinnacle_prestart(body, f["startTime"])
         except oddspapi.NotFound:
             stats["not_found"] += 1
-            continue
-        if not has_pinnacle_prestart(body, f["startTime"]):
-            stats["no_pinnacle"] += 1
-            continue
-        stats["pinnacle_prestart"] += 1
-        for g in groups[1:]:
-            try:
-                client.get("historical-odds", fixtureId=f["fixtureId"], bookmakers=",".join(g))
-            except oddspapi.NotFound:
-                pass
-        if i % 50 == 0:
-            print(f"{i}/{len(fx)} {stats}", flush=True)
+            ok = False
+        else:
+            stats["pinnacle_prestart" if ok else "no_pinnacle"] += 1
+        if ok:
+            for g in groups[1:]:
+                try:
+                    client.get("historical-odds", fixtureId=f["fixtureId"], bookmakers=",".join(g))
+                except oddspapi.NotFound:
+                    pass
+        if i % 25 == 0:
+            print(f"{i}/{len(fx)} {f['startTime'][:10]} {stats}", flush=True)
     print(f"done {stats}")
 
 
