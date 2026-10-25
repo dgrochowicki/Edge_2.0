@@ -11056,18 +11056,54 @@
           "final_score": "2:0"
         }
       ]
+    },
+    {
+      "id": "EDGE-318",
+      "date": "2026-10-25",
+      "type": "acca",
+      "source": "user_bet",
+      "stake_pln": 2.0,
+      "combined_odds": 2.83,
+      "potential_return_pln": 4.99,
+      "gross_return_pln": 4.99,
+      "status": "won",
+      "net_result_pln": 2.99,
+      "selections": [
+        {
+          "match": "MOUZ vs 9z",
+          "market": "correct_score",
+          "pick": "2:0",
+          "odds": 1.62,
+          "confidence": null,
+          "closing_odds": null,
+          "result": "won",
+          "notes": "MOUZ won 2:0.",
+          "final_score": "2:0"
+        },
+        {
+          "match": "G2 vs Aurora",
+          "market": "moneyline",
+          "pick": "Aurora",
+          "odds": 1.75,
+          "confidence": null,
+          "closing_odds": null,
+          "result": "won",
+          "notes": "Aurora won 2:0.",
+          "final_score": "0:2"
+        }
+      ]
     }
   ],
   "observed_passes": [],
   "summary": {
-    "coupons": 317,
-    "won": 107,
+    "coupons": 318,
+    "won": 108,
     "lost": 210,
     "voided": 0,
     "pending": 0,
-    "total_staked_pln": 761.25,
-    "gross_return_pln": 575.74,
-    "net_result_pln": -185.51,
-    "roi": -0.2437
+    "total_staked_pln": 763.25,
+    "gross_return_pln": 580.73,
+    "net_result_pln": -182.52,
+    "roi": -0.2391
   }
 }
