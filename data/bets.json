@@ -3,7 +3,7 @@
   "currency": "PLN",
   "unit_value_pln": 2.0,
   "bookmaker": "STS",
-  "updated_at": "2026-10-24",
+  "updated_at": "2026-10-25",
   "coupons": [
     {
       "id": "EDGE-001",
@@ -10935,18 +10935,42 @@
           "notes": "PGL Masters Bucharest. Live (map 1, 0:0) at cash-out; not settled. Coupon cashed out for 7.03 PLN. STS showed 'kurs 2.00' = cash-out / taxed stake (7.03 / 3.52); real combined odds 2.33."
         }
       ]
+    },
+    {
+      "id": "EDGE-314",
+      "date": "2026-10-24",
+      "type": "single",
+      "source": "user_bet",
+      "stake_pln": 2.0,
+      "combined_odds": 3.3,
+      "potential_return_pln": 5.81,
+      "gross_return_pln": 0.0,
+      "status": "lost",
+      "net_result_pln": -2.0,
+      "selections": [
+        {
+          "match": "FURIA vs DENDELE",
+          "market": "correct_score",
+          "pick": "2:1",
+          "odds": 3.3,
+          "confidence": null,
+          "closing_odds": null,
+          "result": "lost",
+          "notes": "PGL Masters Bucharest. Placed 2026-10-24 18:17. Exact score 2:1 for FURIA did not hit."
+        }
+      ]
     }
   ],
   "observed_passes": [],
   "summary": {
-    "coupons": 313,
+    "coupons": 314,
     "won": 107,
-    "lost": 206,
+    "lost": 207,
     "voided": 0,
     "pending": 0,
-    "total_staked_pln": 752.25,
+    "total_staked_pln": 754.25,
     "gross_return_pln": 575.74,
-    "net_result_pln": -176.51,
-    "roi": -0.2346
+    "net_result_pln": -178.51,
+    "roi": -0.2367
   }
 }
