@@ -10993,18 +10993,42 @@
           "notes": "Placed 2026-10-24 20:01. Coupon lost; which leg(s) lost not given -- leg left pending."
         }
       ]
+    },
+    {
+      "id": "EDGE-316",
+      "date": "2026-10-25",
+      "type": "single",
+      "source": "user_bet",
+      "stake_pln": 2.0,
+      "combined_odds": 4.3,
+      "potential_return_pln": 7.57,
+      "gross_return_pln": 0.0,
+      "status": "lost",
+      "net_result_pln": -2.0,
+      "selections": [
+        {
+          "match": "FUT vs Liquid",
+          "market": "moneyline",
+          "pick": "Liquid",
+          "odds": 4.3,
+          "confidence": null,
+          "closing_odds": null,
+          "result": "lost",
+          "notes": "PGL Masters Bucharest. Placed 2026-10-25 09:30. FUT won."
+        }
+      ]
     }
   ],
   "observed_passes": [],
   "summary": {
-    "coupons": 315,
+    "coupons": 316,
     "won": 107,
-    "lost": 208,
+    "lost": 209,
     "voided": 0,
     "pending": 0,
-    "total_staked_pln": 756.25,
+    "total_staked_pln": 758.25,
     "gross_return_pln": 575.74,
-    "net_result_pln": -180.51,
-    "roi": -0.2387
+    "net_result_pln": -182.51,
+    "roi": -0.2407
   }
 }
