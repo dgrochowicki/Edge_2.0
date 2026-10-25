@@ -11040,8 +11040,9 @@
           "odds": 1.12,
           "confidence": null,
           "closing_odds": null,
-          "result": "pending",
-          "notes": "PGL Masters Bucharest. Placed live: map 2, series 1:0 Vitality."
+          "result": "won",
+          "notes": "PGL Masters Bucharest. Placed live: map 2, series 1:0 Vitality. Vitality won 2:0.",
+          "final_score": "2:0"
         },
         {
           "match": "BetBoom vs Nemiga",
