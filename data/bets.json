@@ -11020,18 +11020,52 @@
           "final_score": "2:0"
         }
       ]
+    },
+    {
+      "id": "EDGE-317",
+      "date": "2026-10-25",
+      "type": "acca",
+      "source": "user_bet",
+      "stake_pln": 3.0,
+      "combined_odds": 2.04,
+      "potential_return_pln": 5.38,
+      "gross_return_pln": 0.0,
+      "status": "pending",
+      "net_result_pln": 0.0,
+      "selections": [
+        {
+          "match": "Vitality vs The MongolZ",
+          "market": "moneyline",
+          "pick": "Vitality",
+          "odds": 1.12,
+          "confidence": null,
+          "closing_odds": null,
+          "result": "pending",
+          "notes": "PGL Masters Bucharest. Placed live: map 2, series 1:0 Vitality."
+        },
+        {
+          "match": "BetBoom vs Nemiga",
+          "market": "handicap_maps",
+          "pick": "Nemiga +0.5",
+          "odds": 1.82,
+          "confidence": null,
+          "closing_odds": null,
+          "result": "pending",
+          "notes": "Placed live: map 2, series 1:0 BetBoom."
+        }
+      ]
     }
   ],
   "observed_passes": [],
   "summary": {
-    "coupons": 316,
+    "coupons": 317,
     "won": 107,
     "lost": 209,
     "voided": 0,
-    "pending": 0,
-    "total_staked_pln": 758.25,
+    "pending": 1,
+    "total_staked_pln": 761.25,
     "gross_return_pln": 575.74,
     "net_result_pln": -182.51,
-    "roi": -0.2407
+    "roi": -0.2398
   }
 }
