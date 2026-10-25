@@ -10979,8 +10979,9 @@
           "odds": 2.75,
           "confidence": null,
           "closing_odds": null,
-          "result": "pending",
-          "notes": "PGL Masters Bucharest. Placed 2026-10-24 20:01. Coupon lost; which leg(s) lost not given -- leg left pending."
+          "result": "lost",
+          "notes": "PGL Masters Bucharest. Placed 2026-10-24 20:01. Natus Vincere won 2:0.",
+          "final_score": "0:2"
         },
         {
           "match": "Galorys vs paiN",
@@ -10989,8 +10990,9 @@
           "odds": 1.4,
           "confidence": null,
           "closing_odds": null,
-          "result": "pending",
-          "notes": "Placed 2026-10-24 20:01. Coupon lost; which leg(s) lost not given -- leg left pending."
+          "result": "lost",
+          "notes": "Placed 2026-10-24 20:01. paiN won 2:0.",
+          "final_score": "0:2"
         }
       ]
     },
@@ -11014,7 +11016,8 @@
           "confidence": null,
           "closing_odds": null,
           "result": "lost",
-          "notes": "PGL Masters Bucharest. Placed 2026-10-25 09:30. FUT won."
+          "notes": "PGL Masters Bucharest. Placed 2026-10-25 09:30. FUT won 2:0.",
+          "final_score": "2:0"
         }
       ]
     }
