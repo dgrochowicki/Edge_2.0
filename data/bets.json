@@ -11211,18 +11211,43 @@
           "final_score": "2:0"
         }
       ]
+    },
+    {
+      "id": "EDGE-322",
+      "date": "2026-10-26",
+      "type": "single",
+      "source": "user_bet",
+      "stake_pln": 2.0,
+      "combined_odds": 3.7,
+      "potential_return_pln": 6.51,
+      "gross_return_pln": 6.51,
+      "status": "won",
+      "net_result_pln": 4.51,
+      "selections": [
+        {
+          "match": "Spirit vs FURIA",
+          "market": "moneyline",
+          "pick": "Spirit",
+          "odds": 3.7,
+          "confidence": null,
+          "closing_odds": null,
+          "result": "won",
+          "notes": "PGL Masters Bucharest. Placed 2026-10-26 17:32. Spirit won 2:1.",
+          "final_score": "2:1"
+        }
+      ]
     }
   ],
   "observed_passes": [],
   "summary": {
-    "coupons": 321,
-    "won": 109,
+    "coupons": 322,
+    "won": 110,
     "lost": 212,
     "voided": 0,
     "pending": 0,
-    "total_staked_pln": 769.25,
-    "gross_return_pln": 585.04,
-    "net_result_pln": -184.21,
-    "roi": -0.2395
+    "total_staked_pln": 771.25,
+    "gross_return_pln": 591.55,
+    "net_result_pln": -179.7,
+    "roi": -0.233
   }
 }
