@@ -3,7 +3,7 @@
   "currency": "PLN",
   "unit_value_pln": 2.0,
   "bookmaker": "STS",
-  "updated_at": "2026-10-26",
+  "updated_at": "2026-10-27",
   "coupons": [
     {
       "id": "EDGE-001",
@@ -11261,18 +11261,42 @@
           "final_score": "1:2"
         }
       ]
+    },
+    {
+      "id": "EDGE-324",
+      "date": "2026-10-27",
+      "type": "single",
+      "source": "user_bet",
+      "stake_pln": 4.0,
+      "combined_odds": 2.0,
+      "potential_return_pln": 7.04,
+      "gross_return_pln": 0.0,
+      "status": "lost",
+      "net_result_pln": -4.0,
+      "selections": [
+        {
+          "match": "Nemesis vs BRUTE",
+          "market": "moneyline",
+          "pick": "Nemesis",
+          "odds": 2.0,
+          "confidence": null,
+          "closing_odds": null,
+          "result": "lost",
+          "notes": "Placed 2026-10-27 10:57. BRUTE won."
+        }
+      ]
     }
   ],
   "observed_passes": [],
   "summary": {
-    "coupons": 323,
+    "coupons": 324,
     "won": 110,
-    "lost": 213,
+    "lost": 214,
     "voided": 0,
     "pending": 0,
-    "total_staked_pln": 773.25,
+    "total_staked_pln": 777.25,
     "gross_return_pln": 591.55,
-    "net_result_pln": -181.7,
-    "roi": -0.235
+    "net_result_pln": -185.7,
+    "roi": -0.2389
   }
 }
