@@ -11286,18 +11286,54 @@
           "final_score": "0:2"
         }
       ]
+    },
+    {
+      "id": "EDGE-325",
+      "date": "2026-10-27",
+      "type": "acca",
+      "source": "user_bet",
+      "stake_pln": 2.0,
+      "combined_odds": 5.1,
+      "potential_return_pln": 8.98,
+      "gross_return_pln": 0.0,
+      "status": "lost",
+      "net_result_pln": -2.0,
+      "selections": [
+        {
+          "match": "Liquid vs Aurora",
+          "market": "moneyline",
+          "pick": "Aurora",
+          "odds": 2.5,
+          "confidence": null,
+          "closing_odds": null,
+          "result": "won",
+          "notes": "Aurora won 2:1.",
+          "final_score": "1:2"
+        },
+        {
+          "match": "The MongolZ vs Legacy",
+          "market": "total_maps",
+          "pick": "Over 2.5",
+          "odds": 2.04,
+          "confidence": null,
+          "closing_odds": null,
+          "result": "lost",
+          "notes": "The MongolZ won 2:0 -- only 2 maps played.",
+          "final_score": "2:0"
+        }
+      ]
     }
   ],
   "observed_passes": [],
   "summary": {
-    "coupons": 324,
+    "coupons": 325,
     "won": 110,
-    "lost": 214,
+    "lost": 215,
     "voided": 0,
     "pending": 0,
-    "total_staked_pln": 777.25,
+    "total_staked_pln": 779.25,
     "gross_return_pln": 591.55,
-    "net_result_pln": -185.7,
-    "roi": -0.2389
+    "net_result_pln": -187.7,
+    "roi": -0.2409
   }
 }
