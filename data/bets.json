@@ -3,7 +3,7 @@
   "currency": "PLN",
   "unit_value_pln": 2.0,
   "bookmaker": "STS",
-  "updated_at": "2026-10-27",
+  "updated_at": "2026-10-28",
   "coupons": [
     {
       "id": "EDGE-001",
@@ -11358,18 +11358,43 @@
           "final_score": "0:2"
         }
       ]
+    },
+    {
+      "id": "EDGE-327",
+      "date": "2026-10-28",
+      "type": "single",
+      "source": "user_bet",
+      "stake_pln": 3.0,
+      "combined_odds": 2.08,
+      "potential_return_pln": 5.49,
+      "gross_return_pln": 5.49,
+      "status": "won",
+      "net_result_pln": 2.49,
+      "selections": [
+        {
+          "match": "The MongolZ vs Nemiga",
+          "market": "moneyline",
+          "pick": "Nemiga",
+          "odds": 2.08,
+          "confidence": null,
+          "closing_odds": null,
+          "result": "won",
+          "notes": "PGL Masters Bucharest. Placed 2026-10-28 12:08. Nemiga won 2:0.",
+          "final_score": "0:2"
+        }
+      ]
     }
   ],
   "observed_passes": [],
   "summary": {
-    "coupons": 326,
-    "won": 110,
+    "coupons": 327,
+    "won": 111,
     "lost": 216,
     "voided": 0,
     "pending": 0,
-    "total_staked_pln": 781.75,
-    "gross_return_pln": 591.55,
-    "net_result_pln": -190.2,
-    "roi": -0.2433
+    "total_staked_pln": 784.75,
+    "gross_return_pln": 597.04,
+    "net_result_pln": -187.71,
+    "roi": -0.2392
   }
 }
