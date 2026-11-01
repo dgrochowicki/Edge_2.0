@@ -11504,18 +11504,43 @@
           "final_score": "2:1"
         }
       ]
+    },
+    {
+      "id": "EDGE-332",
+      "date": "2026-10-29",
+      "type": "single",
+      "source": "user_bet",
+      "stake_pln": 2.47,
+      "combined_odds": 1.95,
+      "potential_return_pln": 4.23,
+      "gross_return_pln": 4.23,
+      "status": "won",
+      "net_result_pln": 1.76,
+      "selections": [
+        {
+          "match": "Vitality vs Natus Vincere",
+          "market": "moneyline",
+          "pick": "Vitality",
+          "odds": 1.95,
+          "confidence": null,
+          "closing_odds": null,
+          "result": "won",
+          "notes": "PGL Masters Bucharest. Placed 2026-10-29 12:03. Vitality won 2:1.",
+          "final_score": "2:1"
+        }
+      ]
     }
   ],
   "observed_passes": [],
   "summary": {
-    "coupons": 331,
-    "won": 112,
+    "coupons": 332,
+    "won": 113,
     "lost": 219,
     "voided": 0,
     "pending": 0,
-    "total_staked_pln": 792.75,
-    "gross_return_pln": 599.68,
-    "net_result_pln": -193.07,
-    "roi": -0.2435
+    "total_staked_pln": 795.22,
+    "gross_return_pln": 603.91,
+    "net_result_pln": -191.31,
+    "roi": -0.2406
   }
 }
