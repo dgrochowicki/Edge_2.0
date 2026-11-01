@@ -3,7 +3,7 @@
   "currency": "PLN",
   "unit_value_pln": 2.0,
   "bookmaker": "STS",
-  "updated_at": "2026-10-28",
+  "updated_at": "2026-11-01",
   "coupons": [
     {
       "id": "EDGE-001",
@@ -11444,18 +11444,42 @@
           "final_score": "1:2"
         }
       ]
+    },
+    {
+      "id": "EDGE-330",
+      "date": "2026-10-29",
+      "type": "single",
+      "source": "user_bet",
+      "stake_pln": 2.0,
+      "combined_odds": 1.5,
+      "potential_return_pln": 2.64,
+      "gross_return_pln": 2.64,
+      "status": "won",
+      "net_result_pln": 0.64,
+      "selections": [
+        {
+          "match": "The Audacity vs Chinggis Warriors",
+          "market": "moneyline",
+          "pick": "Chinggis Warriors",
+          "odds": 1.5,
+          "confidence": null,
+          "closing_odds": null,
+          "result": "won",
+          "notes": "MESA Pro Series Halloween Edition. Placed 2026-10-29 08:33. Chinggis Warriors won."
+        }
+      ]
     }
   ],
   "observed_passes": [],
   "summary": {
-    "coupons": 329,
-    "won": 111,
+    "coupons": 330,
+    "won": 112,
     "lost": 218,
     "voided": 0,
     "pending": 0,
-    "total_staked_pln": 788.75,
-    "gross_return_pln": 597.04,
-    "net_result_pln": -191.71,
-    "roi": -0.2431
+    "total_staked_pln": 790.75,
+    "gross_return_pln": 599.68,
+    "net_result_pln": -191.07,
+    "roi": -0.2416
   }
 }
