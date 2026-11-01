@@ -11683,7 +11683,7 @@
           "confidence": null,
           "closing_odds": null,
           "result": "lost",
-          "notes": ""
+          "notes": "HyperX Retake"
         },
         {
           "match": "Betclic Apogee vs FOKUS",
@@ -11693,21 +11693,45 @@
           "confidence": null,
           "closing_odds": null,
           "result": "lost",
-          "notes": "HyperX Retake"
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "id": "EDGE-338",
+      "date": "2026-11-01",
+      "type": "single",
+      "source": "user_bet",
+      "stake_pln": 2.0,
+      "combined_odds": 2.1,
+      "potential_return_pln": 3.7,
+      "gross_return_pln": 0.0,
+      "status": "lost",
+      "net_result_pln": -2.0,
+      "selections": [
+        {
+          "match": "Betclic Apogee vs FOKUS",
+          "market": "moneyline",
+          "pick": "FOKUS",
+          "odds": 2.1,
+          "confidence": null,
+          "closing_odds": null,
+          "result": "lost",
+          "notes": "CCT EU"
         }
       ]
     }
   ],
   "observed_passes": [],
   "summary": {
-    "coupons": 337,
+    "coupons": 338,
     "won": 115,
-    "lost": 222,
+    "lost": 223,
     "voided": 0,
     "pending": 0,
-    "total_staked_pln": 805.92,
+    "total_staked_pln": 807.92,
     "gross_return_pln": 613.48,
-    "net_result_pln": -192.44,
-    "roi": -0.2388
+    "net_result_pln": -194.44,
+    "roi": -0.2407
   }
 }
