@@ -11939,18 +11939,43 @@
           "final_score": "2:0"
         }
       ]
+    },
+    {
+      "id": "EDGE-346",
+      "date": "2026-11-07",
+      "type": "single",
+      "source": "user_bet",
+      "stake_pln": 3.0,
+      "combined_odds": 2.1,
+      "potential_return_pln": 5.54,
+      "gross_return_pln": 5.54,
+      "status": "won",
+      "net_result_pln": 2.54,
+      "selections": [
+        {
+          "match": "MOUZ vs BetBoom",
+          "market": "correct_score",
+          "pick": "2:0",
+          "odds": 2.1,
+          "confidence": null,
+          "closing_odds": null,
+          "result": "won",
+          "notes": "",
+          "final_score": "2:0"
+        }
+      ]
     }
   ],
   "observed_passes": [],
   "summary": {
-    "coupons": 345,
-    "won": 118,
+    "coupons": 346,
+    "won": 119,
     "lost": 227,
     "voided": 0,
     "pending": 0,
-    "total_staked_pln": 824.92,
-    "gross_return_pln": 627.38,
-    "net_result_pln": -197.54,
-    "roi": -0.2395
+    "total_staked_pln": 827.92,
+    "gross_return_pln": 632.92,
+    "net_result_pln": -195.0,
+    "roi": -0.2355
   }
 }
