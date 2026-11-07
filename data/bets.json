@@ -11878,18 +11878,54 @@
           "final_score": "2:1"
         }
       ]
+    },
+    {
+      "id": "EDGE-344",
+      "date": "2026-11-04",
+      "type": "acca",
+      "source": "user_bet",
+      "stake_pln": 2.0,
+      "combined_odds": 2.51,
+      "potential_return_pln": 4.42,
+      "gross_return_pln": 0.0,
+      "status": "lost",
+      "net_result_pln": -2.0,
+      "selections": [
+        {
+          "match": "The MongolZ vs FURIA",
+          "market": "correct_score",
+          "pick": "0:2",
+          "odds": 1.3,
+          "confidence": null,
+          "closing_odds": null,
+          "result": "lost",
+          "notes": "",
+          "final_score": "2:1"
+        },
+        {
+          "match": "Natus Vincere vs Falcons",
+          "market": "total_maps",
+          "pick": "Over 2.5",
+          "odds": 1.93,
+          "confidence": null,
+          "closing_odds": null,
+          "result": "won",
+          "notes": "",
+          "final_score": "2:1"
+        }
+      ]
     }
   ],
   "observed_passes": [],
   "summary": {
-    "coupons": 343,
+    "coupons": 344,
     "won": 117,
-    "lost": 226,
+    "lost": 227,
     "voided": 0,
     "pending": 0,
-    "total_staked_pln": 820.92,
+    "total_staked_pln": 822.92,
     "gross_return_pln": 624.3,
-    "net_result_pln": -196.62,
-    "roi": -0.2395
+    "net_result_pln": -198.62,
+    "roi": -0.2414
   }
 }
