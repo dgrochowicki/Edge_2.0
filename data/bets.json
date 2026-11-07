@@ -11914,18 +11914,43 @@
           "final_score": "2:1"
         }
       ]
+    },
+    {
+      "id": "EDGE-345",
+      "date": "2026-11-07",
+      "type": "single",
+      "source": "user_bet",
+      "stake_pln": 2.0,
+      "combined_odds": 1.75,
+      "potential_return_pln": 3.08,
+      "gross_return_pln": 3.08,
+      "status": "won",
+      "net_result_pln": 1.08,
+      "selections": [
+        {
+          "match": "The MongolZ vs Natus Vincere",
+          "market": "moneyline",
+          "pick": "The MongolZ",
+          "odds": 1.75,
+          "confidence": null,
+          "closing_odds": null,
+          "result": "won",
+          "notes": "",
+          "final_score": "2:0"
+        }
+      ]
     }
   ],
   "observed_passes": [],
   "summary": {
-    "coupons": 344,
-    "won": 117,
+    "coupons": 345,
+    "won": 118,
     "lost": 227,
     "voided": 0,
     "pending": 0,
-    "total_staked_pln": 822.92,
-    "gross_return_pln": 624.3,
-    "net_result_pln": -198.62,
-    "roi": -0.2414
+    "total_staked_pln": 824.92,
+    "gross_return_pln": 627.38,
+    "net_result_pln": -197.54,
+    "roi": -0.2395
   }
 }
