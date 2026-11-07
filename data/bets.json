@@ -3,7 +3,7 @@
   "currency": "PLN",
   "unit_value_pln": 2.0,
   "bookmaker": "STS",
-  "updated_at": "2026-11-01",
+  "updated_at": "2026-11-07",
   "coupons": [
     {
       "id": "EDGE-001",
@@ -11720,18 +11720,43 @@
           "notes": "CCT EU"
         }
       ]
+    },
+    {
+      "id": "EDGE-339",
+      "date": "2026-11-02",
+      "type": "single",
+      "source": "user_bet",
+      "stake_pln": 3.0,
+      "combined_odds": 1.67,
+      "potential_return_pln": 4.41,
+      "gross_return_pln": 4.41,
+      "status": "won",
+      "net_result_pln": 1.41,
+      "selections": [
+        {
+          "match": "FURIA vs FaZe",
+          "market": "moneyline",
+          "pick": "FURIA",
+          "odds": 1.67,
+          "confidence": null,
+          "closing_odds": null,
+          "result": "won",
+          "notes": "IEM Beijing",
+          "final_score": "2:1"
+        }
+      ]
     }
   ],
   "observed_passes": [],
   "summary": {
-    "coupons": 338,
-    "won": 115,
+    "coupons": 339,
+    "won": 116,
     "lost": 223,
     "voided": 0,
     "pending": 0,
-    "total_staked_pln": 807.92,
-    "gross_return_pln": 613.48,
-    "net_result_pln": -194.44,
-    "roi": -0.2407
+    "total_staked_pln": 810.92,
+    "gross_return_pln": 617.89,
+    "net_result_pln": -193.03,
+    "roi": -0.238
   }
 }
